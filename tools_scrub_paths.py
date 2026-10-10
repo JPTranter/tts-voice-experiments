@@ -3,10 +3,13 @@
 
 Committed files should carry repo-relative paths, not `C:\\Users\\<name>\\...` (privacy policy
 mirrored from the sibling eClock repo). Built with chr(92) so no backslash escaping games."""
+import os
 from pathlib import Path
 
 BS = chr(92)
-USER = "jptra"
+# Derived at runtime, never hardcoded: a literal username here would defeat the purpose of the
+# scrub (the script itself is committed). $SCRUB_USER overrides for other machines.
+USER = os.environ.get("SCRUB_USER") or Path.home().name
 DOUBLE = "C:" + BS * 2 + "Users" + BS * 2 + USER          # inside JSON strings
 SINGLE = "C:" + BS + "Users" + BS + USER                  # plain text
 FWD = "C:/Users/" + USER
