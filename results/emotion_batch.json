@@ -1,0 +1,98 @@
+[
+  {
+    "file": "en-adam-emotion.mp3",
+    "seconds": 30.32,
+    "last5s_centroid": 1046,
+    "last5s_hi": 0.11
+  },
+  {
+    "file": "en-alice-emotion.mp3",
+    "seconds": 31.36,
+    "last5s_centroid": 760,
+    "last5s_hi": 0.054
+  },
+  {
+    "file": "en-bella-emotion.mp3",
+    "seconds": 31.36,
+    "last5s_centroid": 916,
+    "last5s_hi": 0.089
+  },
+  {
+    "file": "en-brian-emotion.mp3",
+    "seconds": 29.84,
+    "last5s_centroid": 681,
+    "last5s_hi": 0.055
+  },
+  {
+    "file": "en-charlie-emotion.mp3",
+    "seconds": 30.08,
+    "last5s_centroid": 652,
+    "last5s_hi": 0.08
+  },
+  {
+    "file": "en-daniel-emotion.mp3",
+    "seconds": 31.76,
+    "last5s_centroid": 854,
+    "last5s_hi": 0.101
+  },
+  {
+    "file": "en-eric-emotion.mp3",
+    "seconds": 30.08,
+    "last5s_centroid": 1032,
+    "last5s_hi": 0.178
+  },
+  {
+    "file": "en-george-emotion.mp3",
+    "seconds": 31.12,
+    "last5s_centroid": 861,
+    "last5s_hi": 0.081
+  },
+  {
+    "file": "en-jessica-emotion.mp3",
+    "seconds": 30.08,
+    "last5s_centroid": 1092,
+    "last5s_hi": 0.114
+  },
+  {
+    "file": "en-lily-emotion.mp3",
+    "seconds": 32.48,
+    "last5s_centroid": 896,
+    "last5s_hi": 0.077
+  },
+  {
+    "file": "en-matilda-emotion.mp3",
+    "seconds": 31.6,
+    "last5s_centroid": 1198,
+    "last5s_hi": 0.153
+  },
+  {
+    "file": "en-sarah-emotion.mp3",
+    "seconds": 31.04,
+    "last5s_centroid": 814,
+    "last5s_hi": 0.092
+  },
+  {
+    "file": "ko-annakim-emotion.mp3",
+    "seconds": 38.56,
+    "last5s_centroid": 258,
+    "last5s_hi": 0.002
+  },
+  {
+    "file": "ko-jini-emotion.mp3",
+    "seconds": 36.24,
+    "last5s_centroid": 257,
+    "last5s_hi": 0.002
+  },
+  {
+    "file": "ko-kore-emotion.mp3",
+    "seconds": 43.16,
+    "last5s_centroid": 2098,
+    "last5s_hi": 0.08
+  },
+  {
+    "file": "ko-sora-emotion.mp3",
+    "seconds": 40.32,
+    "last5s_centroid": 314,
+    "last5s_hi": 0.007
+  }
+]

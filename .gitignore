@@ -4,7 +4,12 @@ audio/birthday/parts/
 audio/emotion_probe/
 audio/_speed_probe/
 audio/renders/
+audio/local/_tmp*
+audio/local/_sapi*
 __pycache__/
 *.pyc
 # scratch wav intermediates
 *.wav
+# local engine environment and large model weights (re-fetch with fetch_piper_voices.py)
+.venv/
+models/
