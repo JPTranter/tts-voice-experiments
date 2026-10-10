@@ -359,7 +359,11 @@ def cmd_say(args: argparse.Namespace) -> None:
                          "emotion_tags": sorted(set(re.findall(r"\[[a-z]+\]", chunk)))})
 
     listf = work / "concat.txt"
-    listf.write_text("".join(f"file '{Path(m['file']).as_posix()}'\n" for m in manifest), encoding="utf-8")
+    # ABSOLUTE paths here: ffmpeg resolves relative entries in a concat list against the list
+    # file's own directory, so a repo-relative path silently becomes <work>/<work>/chunk.mp3.
+    # The manifest keeps repo-relative paths for privacy; the concat list needs absolute ones.
+    listf.write_text("".join(f"file '{(work / Path(m['file']).name).as_posix()}'\n" for m in manifest),
+                     encoding="utf-8")
     base = Path(args.out) if args.out else work / f"{args.voice}.mp3"
     base.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(listf), "-c", "copy",

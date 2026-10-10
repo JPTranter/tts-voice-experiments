@@ -1,183 +1,8 @@
 [
   {
-    "path": "audio/_speed_probe/mai-harper-speed1.0.mp3",
-    "seconds": 8.74,
-    "kb": 171
-  },
-  {
-    "path": "audio/_speed_probe/mai-harper-speed1.5.mp3",
-    "seconds": 5.28,
-    "kb": 103
-  },
-  {
-    "path": "audio/_speed_probe/v4-sarah-speed1.0.mp3",
-    "seconds": 8.72,
-    "kb": 137
-  },
-  {
     "path": "audio/birthday/happy-birthday-to-bel-4part-harmony.mp3",
     "seconds": 17.61,
     "kb": 346
-  },
-  {
-    "path": "audio/birthday/raw/brian-bel.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/brian-burt.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/brian-day.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/brian-deer.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/brian-hap.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/brian-pee.mp3",
-    "seconds": 0.72,
-    "kb": 12
-  },
-  {
-    "path": "audio/birthday/raw/brian-too.mp3",
-    "seconds": 0.64,
-    "kb": 11
-  },
-  {
-    "path": "audio/birthday/raw/brian-yoo.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/george-bel.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/george-burt.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/george-day.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/george-deer.mp3",
-    "seconds": 0.96,
-    "kb": 16
-  },
-  {
-    "path": "audio/birthday/raw/george-hap.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/george-pee.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/george-too.mp3",
-    "seconds": 0.72,
-    "kb": 12
-  },
-  {
-    "path": "audio/birthday/raw/george-yoo.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/jessica-bel.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/jessica-burt.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/jessica-day.mp3",
-    "seconds": 0.72,
-    "kb": 12
-  },
-  {
-    "path": "audio/birthday/raw/jessica-deer.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/jessica-hap.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/jessica-pee.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/jessica-too.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/jessica-yoo.mp3",
-    "seconds": 1.12,
-    "kb": 18
-  },
-  {
-    "path": "audio/birthday/raw/sarah-bel.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/sarah-burt.mp3",
-    "seconds": 0.72,
-    "kb": 12
-  },
-  {
-    "path": "audio/birthday/raw/sarah-day.mp3",
-    "seconds": 0.88,
-    "kb": 15
-  },
-  {
-    "path": "audio/birthday/raw/sarah-deer.mp3",
-    "seconds": 0.96,
-    "kb": 16
-  },
-  {
-    "path": "audio/birthday/raw/sarah-hap.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/sarah-pee.mp3",
-    "seconds": 0.8,
-    "kb": 14
-  },
-  {
-    "path": "audio/birthday/raw/sarah-too.mp3",
-    "seconds": 0.64,
-    "kb": 11
-  },
-  {
-    "path": "audio/birthday/raw/sarah-yoo.mp3",
-    "seconds": 0.88,
-    "kb": 15
   },
   {
     "path": "audio/birthday/reference-synth-4parts.mp3",
@@ -255,6 +80,16 @@
     "kb": 491
   },
   {
+    "path": "audio/emotion/en-bill-emotion-fast150.mp3",
+    "seconds": 21.55,
+    "kb": 422
+  },
+  {
+    "path": "audio/emotion/en-bill-emotion.mp3",
+    "seconds": 32.32,
+    "kb": 506
+  },
+  {
     "path": "audio/emotion/en-brian-emotion-fast150.mp3",
     "seconds": 19.9,
     "kb": 390
@@ -265,6 +100,16 @@
     "kb": 467
   },
   {
+    "path": "audio/emotion/en-callum-emotion-fast150.mp3",
+    "seconds": 21.76,
+    "kb": 427
+  },
+  {
+    "path": "audio/emotion/en-callum-emotion.mp3",
+    "seconds": 32.64,
+    "kb": 511
+  },
+  {
     "path": "audio/emotion/en-charlie-emotion-fast150.mp3",
     "seconds": 20.05,
     "kb": 393
@@ -273,6 +118,16 @@
     "path": "audio/emotion/en-charlie-emotion.mp3",
     "seconds": 30.08,
     "kb": 471
+  },
+  {
+    "path": "audio/emotion/en-chris-emotion-fast150.mp3",
+    "seconds": 19.42,
+    "kb": 381
+  },
+  {
+    "path": "audio/emotion/en-chris-emotion.mp3",
+    "seconds": 29.12,
+    "kb": 456
   },
   {
     "path": "audio/emotion/en-daniel-emotion-fast150.mp3",
@@ -305,6 +160,16 @@
     "kb": 487
   },
   {
+    "path": "audio/emotion/en-harry-emotion-fast150.mp3",
+    "seconds": 19.8,
+    "kb": 388
+  },
+  {
+    "path": "audio/emotion/en-harry-emotion.mp3",
+    "seconds": 29.68,
+    "kb": 465
+  },
+  {
     "path": "audio/emotion/en-jessica-emotion-fast150.mp3",
     "seconds": 20.06,
     "kb": 393
@@ -313,6 +178,26 @@
     "path": "audio/emotion/en-jessica-emotion.mp3",
     "seconds": 30.08,
     "kb": 471
+  },
+  {
+    "path": "audio/emotion/en-laura-emotion-fast150.mp3",
+    "seconds": 20.27,
+    "kb": 397
+  },
+  {
+    "path": "audio/emotion/en-laura-emotion.mp3",
+    "seconds": 30.4,
+    "kb": 476
+  },
+  {
+    "path": "audio/emotion/en-liam-emotion-fast150.mp3",
+    "seconds": 19.25,
+    "kb": 377
+  },
+  {
+    "path": "audio/emotion/en-liam-emotion.mp3",
+    "seconds": 28.88,
+    "kb": 452
   },
   {
     "path": "audio/emotion/en-lily-emotion-fast150.mp3",
@@ -335,6 +220,16 @@
     "kb": 495
   },
   {
+    "path": "audio/emotion/en-roger-emotion-fast150.mp3",
+    "seconds": 20.75,
+    "kb": 407
+  },
+  {
+    "path": "audio/emotion/en-roger-emotion.mp3",
+    "seconds": 31.12,
+    "kb": 487
+  },
+  {
     "path": "audio/emotion/en-sarah-emotion-fast150.mp3",
     "seconds": 20.7,
     "kb": 406
@@ -343,6 +238,16 @@
     "path": "audio/emotion/en-sarah-emotion.mp3",
     "seconds": 31.04,
     "kb": 486
+  },
+  {
+    "path": "audio/emotion/en-will-emotion-fast150.mp3",
+    "seconds": 20.59,
+    "kb": 404
+  },
+  {
+    "path": "audio/emotion/en-will-emotion.mp3",
+    "seconds": 30.88,
+    "kb": 484
   },
   {
     "path": "audio/emotion/ko-annakim-emotion.mp3",
@@ -383,136 +288,6 @@
     "path": "audio/emotion/sci-fi-emotion-sarah.mp3",
     "seconds": 31.04,
     "kb": 486
-  },
-  {
-    "path": "audio/emotion_probe/baseline-run1.mp3",
-    "seconds": 5.36,
-    "kb": 85
-  },
-  {
-    "path": "audio/emotion_probe/baseline-run2.mp3",
-    "seconds": 5.6,
-    "kb": 89
-  },
-  {
-    "path": "audio/emotion_probe/instructions.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/mai-style.mp3",
-    "seconds": 5.33,
-    "kb": 104
-  },
-  {
-    "path": "audio/emotion_probe/mai_cheerful_deg1_5_0.mp3",
-    "seconds": 5.23,
-    "kb": 102
-  },
-  {
-    "path": "audio/emotion_probe/mai_cheerful_deg1_5_1.mp3",
-    "seconds": 5.18,
-    "kb": 101
-  },
-  {
-    "path": "audio/emotion_probe/mai_plain_0.mp3",
-    "seconds": 5.23,
-    "kb": 102
-  },
-  {
-    "path": "audio/emotion_probe/mai_plain_1.mp3",
-    "seconds": 5.09,
-    "kb": 99
-  },
-  {
-    "path": "audio/emotion_probe/tag-cheerfully.mp3",
-    "seconds": 5.6,
-    "kb": 89
-  },
-  {
-    "path": "audio/emotion_probe/tag-whispering.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/tagcheck-eleven-flash-v2.5.mp3",
-    "seconds": 5.94,
-    "kb": 94
-  },
-  {
-    "path": "audio/emotion_probe/tagcheck-eleven-multilingual-v2.mp3",
-    "seconds": 6.69,
-    "kb": 105
-  },
-  {
-    "path": "audio/emotion_probe/tagcheck-eleven-v3.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/tagcheck-eleven-v4.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/v3-plain-repeat.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/v3-plain.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/v3-tag-whispering.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/v3-v4-plain.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/v3-v4-tag-whispering.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/voice_settings.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/vs-plain-0.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/vs-plain-1.mp3",
-    "seconds": 5.68,
-    "kb": 90
-  },
-  {
-    "path": "audio/emotion_probe/vs-plain-2.mp3",
-    "seconds": 5.44,
-    "kb": 86
-  },
-  {
-    "path": "audio/emotion_probe/vs-style09-0.mp3",
-    "seconds": 5.6,
-    "kb": 89
-  },
-  {
-    "path": "audio/emotion_probe/vs-style09-1.mp3",
-    "seconds": 5.52,
-    "kb": 87
-  },
-  {
-    "path": "audio/emotion_probe/vs-style09-2.mp3",
-    "seconds": 5.44,
-    "kb": 86
   },
   {
     "path": "audio/english/el-alice.mp3",
