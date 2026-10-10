@@ -72,7 +72,7 @@ def main() -> None:
             dur_text = f"{secs:g} s" if secs else "?"
             rows.append(
                 f'      <li id="{html.escape(p.stem)}">'
-                f'<span class="name">{html.escape(p.name)}</span>'
+                f'<a class="name" href="s/{html.escape(p.stem)}.html" title="player, transcript and measurements">{html.escape(p.name)}</a>'
                 f'<span class="dur">{dur_text}</span>'
                 f'<audio controls preload="none" src="{cdn}/{rel}"></audio>'
                 f'<a class="repo" href="https://github.com/{owner}/{name}/blob/{branch}/{rel}">file</a>'

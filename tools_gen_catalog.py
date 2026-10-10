@@ -45,6 +45,14 @@ BRANCH = git("rev-parse", "--abbrev-ref", "HEAD") or "master"
 # forces a download. See docs/github-audio-embedding.md.
 CDN = f"https://cdn.jsdelivr.net/gh/{OWNER}/{REPO}@{BRANCH}"
 PAGES = f"https://{OWNER.lower()}.github.io/{REPO}/players.html"
+SAMPLE_PAGE = f"https://{OWNER.lower()}.github.io/{REPO}/s"
+
+
+def page_link(rel: str, text: str) -> str:
+    """Link a sample's label to its own page (player, transcript, measurements). The ▶ links point
+    at the audio itself for immediate playback; the label goes to the context page."""
+    stem = Path(rel).stem
+    return f'[{text}]({SAMPLE_PAGE}/{stem}.html "player, transcript and measurements")'
 
 
 def secs(rel: str) -> str:
@@ -87,13 +95,13 @@ def english_table() -> str:
     rows = []
     for p in sorted((ROOT / "audio/english_female").glob("*.mp3")):
         v = p.stem.replace("en-f-", "")
-        rows.append(f"| {v} | F | {play(f'audio/english_female/{p.name}')} | "
+        rows.append(f"| {page_link(f'audio/english_female/{p.name}', v)} | F | {play(f'audio/english_female/{p.name}')} | "
                     f"{play(f'audio/english_female_fast/en-f-{v}-fast150.mp3')} | "
                     f"{play_if(f'audio/emotion/en-{v}-emotion.mp3')} | "
                     f"{play_if(f'audio/emotion/en-{v}-emotion-fast150.mp3')} |")
     for p in sorted((ROOT / "audio/english_male").glob("*.mp3")):
         v = p.stem.replace("en-m-", "")
-        rows.append(f"| {v} | M | {play(f'audio/english_male/{p.name}')} | "
+        rows.append(f"| {page_link(f'audio/english_male/{p.name}', v)} | M | {play(f'audio/english_male/{p.name}')} | "
                     f"{play(f'audio/english_male_fast/en-m-{v}-fast150.mp3')} | "
                     f"{play_if(f'audio/emotion/en-{v}-emotion.mp3')} | "
                     f"{play_if(f'audio/emotion/en-{v}-emotion-fast150.mp3')} |")
@@ -115,14 +123,14 @@ def korean_table() -> str:
                 break
         if p.stem == "mai-haena":
             emo_link = play_if("audio/emotion/ko-haena-plain.mp3") + " (plain: no emotion control)"
-        rows.append(f"| `{p.stem}` | {play(f'audio/korean/{p.name}')} | {emo_link} |")
+        rows.append(f"| {page_link(f'audio/korean/{p.name}', '`' + p.stem + '`')} | {play(f'audio/korean/{p.name}')} | {emo_link} |")
     return "| file | plain paragraph | with emotion |\n|---|---|---|\n" + "\n".join(rows)
 
 
 def emotion_table() -> str:
     rows = []
     for p in sorted((ROOT / "audio/emotion").glob("*emotion.mp3")):
-        rows.append(f"| `{p.name}` | {play(p.relative_to(ROOT).as_posix())} |")
+        rows.append(f"| {page_link(p.relative_to(ROOT).as_posix(), '`' + p.name + '`')} | {play(p.relative_to(ROOT).as_posix())} |")
     for name in ("_control_plain_sarah.mp3", "_control_plain_gemini.mp3"):
         p = ROOT / "audio/emotion" / name
         if p.exists():
@@ -134,19 +142,19 @@ def baselines_table() -> str:
     rows = []
     for d in ("audio/edge", "audio/elevenlabs-en-full", "audio/english"):
         for p in sorted((ROOT / d).glob("*.mp3")):
-            rows.append(f"| `{d}/{p.name}` | {play(p.relative_to(ROOT).as_posix())} |")
+            rows.append(f"| {page_link(p.relative_to(ROOT).as_posix(), '`' + d + '/' + p.name + '`')} | {play(p.relative_to(ROOT).as_posix())} |")
     extra = [("audio/emotion/en-sarah-emotion.mp3", "the emotion version, for comparison"),
              ("audio/emotion/_control_plain_sarah.mp3", "untagged control of the same script")]
     for rel, note in extra:
         if (ROOT / rel).exists():
-            rows.append(f"| `{rel}` — {note} | {play(rel)} |")
+            rows.append(f"| {page_link(rel, '`' + rel + '`')} — {note} | {play(rel)} |")
     return "| file | play |\n|---|---|\n" + "\n".join(rows)
 
 
 def local_table() -> str:
     rows = []
     for p in sorted((ROOT / "audio/local").glob("*.mp3")):
-        rows.append(f"| `{p.name}` | {play(p.relative_to(ROOT).as_posix())} |")
+        rows.append(f"| {page_link(p.relative_to(ROOT).as_posix(), '`' + p.name + '`')} | {play(p.relative_to(ROOT).as_posix())} |")
     return "| file | play |\n|---|---|\n" + "\n".join(rows)
 
 
@@ -163,7 +171,7 @@ def special_table() -> str:
 def longtext_table() -> str:
     rows = []
     for p in sorted((ROOT / "audio/longtext").glob("*.mp3")):
-        rows.append(f"| `{p.name}` | {play(p.relative_to(ROOT).as_posix())} |")
+        rows.append(f"| {page_link(p.relative_to(ROOT).as_posix(), '`' + p.name + '`')} | {play(p.relative_to(ROOT).as_posix())} |")
     if not rows:
         return ""
     return "\n".join(["| file | play |", "|---|---|", *rows])
@@ -172,7 +180,9 @@ def build() -> str:
     return "\n".join([
         BEGIN,
         "",
-        f"> **Click any ▶ to play it in your browser.** GitHub's markdown sanitiser strips embedded",
+        f"> **Click any ▶ to play it immediately** (the browser opens its audio player) — or click the",
+        f"> **name** for that sample's own page with the player in place, the text spoken, the STT",
+        f"> transcript and the measurements. GitHub's markdown sanitiser strips embedded",
         f"> `<audio>`/`<video>` tags, its file page for an mp3 offers only a download, and",
         f"> raw.githubusercontent.com sends `content-disposition: attachment` — so the links point at",
         f"> jsDelivr, which serves `audio/mpeg` inline. A single page with every player:",
