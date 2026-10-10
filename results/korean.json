@@ -1,0 +1,137 @@
+{
+  "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 사십 년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑, 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는, 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+  "results": [
+    {
+      "label": "mai-haena",
+      "model": "microsoft/mai-voice-2.1",
+      "voice": "ko-KR-Haena:MAI-Voice-2.1",
+      "note": "Microsoft MAI-Voice-2.1 native ko-KR voice",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594115-Hh7bcozMKDMhRRE0uHk7",
+      "bytes": 813120,
+      "seconds": 40.66,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.981
+        },
+        "openai/whisper-large-v3": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. 우리는 집을 기대하고 왔어요. 그녀가 말했다. 그런데 우리가 찾은 것은 질문이었습니다. 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. 그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.",
+          "similarity": 0.959
+        }
+      }
+    },
+    {
+      "label": "mai-harper",
+      "model": "microsoft/mai-voice-2.1",
+      "voice": "ko-KR-Harper:MAI-Voice-2.1",
+      "note": "Microsoft MAI-Voice-2.1 native ko-KR voice",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594125-gcg9Uy8r7IuLP2tgGIW3",
+      "bytes": 1003200,
+      "seconds": 50.16,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르엔트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.977
+        },
+        "openai/whisper-large-v3": {
+          "text": " 식민선 아르헨트는 명암 경계선을 지나 표류했다.  선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑.  소리를 냈다.  안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다.  인간이 한 번도 만져본 적 없는.  녹과 얼음의 세계였다.  우리는 집을 기대하고 왔어요.  그녀가 말했다.  그런데...  우리가 찾은 것은 질문이었습니다.  등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다.  그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.",
+          "similarity": 0.927
+        }
+      }
+    },
+    {
+      "label": "el-jini",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "0oqpliV6dVSr9XomngOW",
+      "note": "ElevenLabs library voice: Jini (Korean female, narrator)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594143-icex7mTSmovpgMIyryOd",
+      "bytes": 607756,
+      "seconds": 37.92,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.977
+        },
+        "openai/whisper-large-v3": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. 우리는 집을 기대하고 왔어요 그녀가 말했다. 그런데 우리가 찾은 것은 질문이었습니다. 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. 그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.",
+          "similarity": 0.951
+        }
+      }
+    },
+    {
+      "label": "el-sora",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "1BZBO072RKJTzZcDjRox",
+      "note": "ElevenLabs library voice: Sora (Korean female, storyteller)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594156-XVzUR46nRV7Qk7WEkAYY",
+      "bytes": 682153,
+      "seconds": 42.56,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.981
+        },
+        "openai/whisper-large-v3": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. 우리는 집을 기대하고 왔어요. 그녀가 말했다. 그런데 우리가 찾은 것은 질문이었습니다. 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. 그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.",
+          "similarity": 0.955
+        }
+      }
+    },
+    {
+      "label": "el-annakim",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "uyVNoMrnUku1dZyVEXwD",
+      "note": "ElevenLabs library voice: Anna Kim (Korean female, narration)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594171-1gfqe3gzjN57IPjVUqMT",
+      "bytes": 637431,
+      "seconds": 39.76,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.981
+        },
+        "openai/whisper-large-v3": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. 우리는 집을 기대하고 왔어요, 그녀가 말했다. 그런데 우리가 찾은 것은 질문이었습니다. 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. 그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.",
+          "similarity": 0.951
+        }
+      }
+    },
+    {
+      "label": "gemini-kore",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "note": "Gemini TTS voice Kore (multilingual, PCM only -> ffmpeg mp3)",
+      "http": 200,
+      "response_format": "pcm",
+      "content_type": "audio/pcm;rate=24000;channels=1",
+      "generation_id": "gen-tts-1791594185-WTJqIWcoNwq2e6ictxa4",
+      "bytes": 655916,
+      "seconds": 40.92,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미라는 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. \"우리는 집을 기대하고 왔어요.\" 그녀가 말했다. \"그런데 우리가 찾은 것은 질문이었습니다.\" 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다. \"그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다.\"",
+          "similarity": 0.981
+        },
+        "openai/whisper-large-v3": {
+          "text": " 식민선 아르헨트는 명암 경계선을 지나 표류했다. 선체는 40년 동안 쌓인 미세 운석이 열을 내려놓으며 똑똑 소리를 냈다. 안에서 미란은 뷰포트 위로 행성의 새벽이 기어오는 것을 지켜보았다. 인간이 한 번도 만져본 적 없는 녹과 얼음의 세계였다. 우리는 집을 기대하고 왔어요 그녀가 말했다 그런데 우리가 찾은 것은 질문이었습니다 등 뒤에서 함선의 지성이 눈 내리는 듯한 목소리로 대답했다 그렇다면 우리는 평생 그것을 제대로 묻는 법을 배우게 될 것입니다",
+          "similarity": 0.932
+        }
+      }
+    }
+  ]
+}

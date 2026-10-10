@@ -1,0 +1,34 @@
+{
+  "note": "Voice ids validated against OpenRouter /api/v1/audio/speech on 2026-10-10. A candidate that is not available returns HTTP 400 (e.g. 'Unknown voice \"rachel\"'), so every entry below was confirmed by an actual 200 render.",
+  "elevenlabs_premade_accepted": [
+    "george", "sarah", "adam", "alice", "bella", "bill", "brian", "callum", "charlie",
+    "chris", "daniel", "eric", "harry", "jessica", "laura", "liam", "lily", "matilda",
+    "river", "roger", "will"
+  ],
+  "elevenlabs_premade_rejected": {
+    "rachel": "400 Unknown voice",
+    "charlotte": "400 Unknown voice",
+    "grace": "400 Unknown voice",
+    "nicole": "400 Unknown voice"
+  },
+  "elevenlabs_female_premade": ["sarah", "alice", "bella", "jessica", "laura", "lily", "matilda"],
+  "elevenlabs_korean_library_female": [
+    {"voice_id": "1BZBO072RKJTzZcDjRox", "name": "Sora: Warm Korean Storyteller", "labels": {"language": "ko", "accent": "seoul", "gender": "female", "age": "young", "use_case": "narrative_story"}},
+    {"voice_id": "uyVNoMrnUku1dZyVEXwD", "name": "Anna Kim", "labels": {"language": "ko", "accent": "seoul", "gender": "female", "age": "young", "use_case": "narrative_story"}},
+    {"voice_id": "0oqpliV6dVSr9XomngOW", "name": "Jini - Warm & Intelligent Korean Female", "labels": {"language": "ko", "accent": "standard", "gender": "female", "age": "middle_aged", "use_case": "informative_educational"}},
+    {"voice_id": "5I7B1di44aCL15NkP0jn", "name": "Kanna - Calm & Friendly", "labels": {"language": "ko", "accent": "seoul", "gender": "female", "age": "young", "use_case": "entertainment_tv"}},
+    {"voice_id": "KlstlYt9VVf3zgie2Oht", "name": "Sola", "labels": {"language": "ko", "accent": "seoul", "gender": "female", "age": "young", "use_case": "informative_educational"}},
+    {"voice_id": "mYk0rAapHek2oTw18z8x", "name": "salang", "labels": {"language": "ko", "accent": "seoul", "gender": "female", "age": "young", "use_case": "informative_educational"}}
+  ],
+  "azure_mai_voice_2_1_korean": [
+    "ko-KR-Haena:MAI-Voice-2.1",
+    "ko-KR-Harper:MAI-Voice-2.1",
+    "ko-KR-Grant:MAI-Voice-2.1",
+    "ko-KR-Junho:MAI-Voice-2.1"
+  ],
+  "gemini_tts": {
+    "model": "google/gemini-3.8-flash-tts",
+    "constraint": "response_format must be 'pcm' (24 kHz mono); mp3 returns 400 'Gemini TTS only supports response_format=\"pcm\"'. Convert with ffmpeg.",
+    "voice_used": "Kore"
+  }
+}

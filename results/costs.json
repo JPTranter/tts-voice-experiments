@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-10-10",
+  "totals_usd": {
+    "english": 0.03,
+    "korean": 0.052906,
+    "english_female": 0.12628,
+    "english_male": 0.23452
+  },
+  "requests": [
+    {
+      "experiment": "english",
+      "label": "el-sarah",
+      "voice": "sarah",
+      "bytes": 287599,
+      "seconds": 17.92,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01,
+        "latency_ms": 3616
+      }
+    },
+    {
+      "experiment": "english",
+      "label": "el-alice",
+      "voice": "alice",
+      "bytes": 294287,
+      "seconds": 18.32,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01,
+        "latency_ms": 3985
+      }
+    },
+    {
+      "experiment": "english",
+      "label": "el-matilda",
+      "voice": "matilda",
+      "bytes": 293033,
+      "seconds": 18.24,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01,
+        "latency_ms": 3886
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "mai-haena",
+      "voice": "ko-KR-Haena:MAI-Voice-2.1",
+      "bytes": 813120,
+      "seconds": 40.66,
+      "tts_cost": {
+        "provider": "Azure",
+        "model": "microsoft/mai-voice-2.1-20261001",
+        "usd": 0.005852,
+        "latency_ms": 1723
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "mai-harper",
+      "voice": "ko-KR-Harper:MAI-Voice-2.1",
+      "bytes": 1003200,
+      "seconds": 50.16,
+      "tts_cost": {
+        "provider": "Azure",
+        "model": "microsoft/mai-voice-2.1-20261001",
+        "usd": 0.005852,
+        "latency_ms": 1714
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "el-jini",
+      "voice": "0oqpliV6dVSr9XomngOW",
+      "bytes": 607756,
+      "seconds": 37.92,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01064,
+        "latency_ms": 7374
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "el-sora",
+      "voice": "1BZBO072RKJTzZcDjRox",
+      "bytes": 682153,
+      "seconds": 42.56,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01064,
+        "latency_ms": 6973
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "el-annakim",
+      "voice": "uyVNoMrnUku1dZyVEXwD",
+      "bytes": 637431,
+      "seconds": 39.76,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01064,
+        "latency_ms": 7154
+      }
+    },
+    {
+      "experiment": "korean",
+      "label": "gemini-kore",
+      "voice": "Kore",
+      "bytes": 655916,
+      "seconds": 40.92,
+      "tts_cost": {
+        "provider": "Google",
+        "model": "google/gemini-3.8-flash-tts-20260922",
+        "usd": 0.009282,
+        "latency_ms": 12633
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-sarah",
+      "voice": "sarah",
+      "bytes": 520821,
+      "seconds": 32.48,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 6002
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-alice",
+      "voice": "alice",
+      "bytes": 524582,
+      "seconds": 32.72,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5741
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-matilda",
+      "voice": "matilda",
+      "bytes": 524582,
+      "seconds": 32.72,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 6272
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-jessica",
+      "voice": "jessica",
+      "bytes": 509118,
+      "seconds": 31.76,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5618
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-lily",
+      "voice": "lily",
+      "bytes": 535031,
+      "seconds": 33.36,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 6780
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-bella",
+      "voice": "bella",
+      "bytes": 527090,
+      "seconds": 32.88,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 6169
+      }
+    },
+    {
+      "experiment": "english_female",
+      "label": "en-f-laura",
+      "voice": "laura",
+      "bytes": 504102,
+      "seconds": 31.44,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5926
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-adam",
+      "voice": "adam",
+      "bytes": 517059,
+      "seconds": 32.24,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5442
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-george",
+      "voice": "george",
+      "bytes": 518313,
+      "seconds": 32.32,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5698
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-brian",
+      "voice": "brian",
+      "bytes": 487384,
+      "seconds": 30.4,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5534
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-daniel",
+      "voice": "daniel",
+      "bytes": 528344,
+      "seconds": 32.96,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5536
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-eric",
+      "voice": "eric",
+      "bytes": 486130,
+      "seconds": 30.32,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5406
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-callum",
+      "voice": "callum",
+      "bytes": 542555,
+      "seconds": 33.84,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5600
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-charlie",
+      "voice": "charlie",
+      "bytes": 497833,
+      "seconds": 31.04,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5359
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-will",
+      "voice": "will",
+      "bytes": 502848,
+      "seconds": 31.36,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5965
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-chris",
+      "voice": "chris",
+      "bytes": 488638,
+      "seconds": 30.48,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5498
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-roger",
+      "voice": "roger",
+      "bytes": 518313,
+      "seconds": 32.32,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5572
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-liam",
+      "voice": "liam",
+      "bytes": 478607,
+      "seconds": 29.84,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5614
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-harry",
+      "voice": "harry",
+      "bytes": 496579,
+      "seconds": 30.96,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 5610
+      }
+    },
+    {
+      "experiment": "english_male",
+      "label": "en-m-bill",
+      "voice": "bill",
+      "bytes": 563035,
+      "seconds": 35.12,
+      "tts_cost": {
+        "provider": "ElevenLabs",
+        "model": "elevenlabs/eleven-v4-20260930",
+        "usd": 0.01804,
+        "latency_ms": 6456
+      }
+    }
+  ]
+}

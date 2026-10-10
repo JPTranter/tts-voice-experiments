@@ -1,0 +1,291 @@
+{
+  "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport - a world of rust and ice that no human had ever touched.",
+  "results": [
+    {
+      "label": "en-m-adam",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "adam",
+      "note": "premade adam (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594590-H2b6lCXvQH6kM6y4uZ0u",
+      "bytes": 517059,
+      "seconds": 32.24,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. learning how to ask it properly.",
+          "similarity": 0.898
+        }
+      }
+    },
+    {
+      "label": "en-m-george",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "george",
+      "note": "premade george (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594601-7uLtuG1CFVu6UtpC3pD0",
+      "bytes": 518313,
+      "seconds": 32.32,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet’s dawn crawl across the viewport—a world of rust and ice that no human had ever touched. “We came expecting a home,” she said. “Instead, we found a question.” Behind her, the ship’s mind answered in a voice like falling snow. “Then we shall spend our lives learning how to ask it properly.”",
+          "similarity": 0.973
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.973
+        }
+      }
+    },
+    {
+      "label": "en-m-brian",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "brian",
+      "note": "premade brian (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594612-tGelFADevvBS4GaalADv",
+      "bytes": 487384,
+      "seconds": 30.4,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.962
+        }
+      }
+    },
+    {
+      "label": "en-m-daniel",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "daniel",
+      "note": "premade daniel (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594621-302KZe4nlQhJtRfbnpIX",
+      "bytes": 528344,
+      "seconds": 32.96,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. our lives learning how to ask it properly.",
+          "similarity": 0.931
+        }
+      }
+    },
+    {
+      "label": "en-m-eric",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "eric",
+      "note": "premade eric (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594634-Sku8vCdoTAcxxtBXZfm5",
+      "bytes": 486130,
+      "seconds": 30.32,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet’s dawn crawl across the viewport—a world of rust and ice that no human had ever touched. “We came expecting a home,” she said. “Instead, we found a question.” Behind her, the ship’s mind answered in a voice like falling snow: “Then we shall spend our lives learning how to ask it properly.”",
+          "similarity": 0.976
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. Then we shall spend our lives learning how to ask it properly. you",
+          "similarity": 0.958
+        }
+      }
+    },
+    {
+      "label": "en-m-callum",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "callum",
+      "note": "premade callum (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594646-c1pNLQygQZSN7MVnsQ9S",
+      "bytes": 542555,
+      "seconds": 33.84,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet’s dawn crawl across the viewport—a world of rust and ice that no human had ever touched. “We came expecting a home,” she said. “Instead, we found a question.” Behind her, the ship’s mind answered in a voice like falling snow. “Then we shall spend our lives learning how to ask it properly.”",
+          "similarity": 0.973
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. Then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.965
+        }
+      }
+    },
+    {
+      "label": "en-m-charlie",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "charlie",
+      "note": "premade charlie (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594659-GaGmKxqpjynb04EfCKkH",
+      "bytes": 497833,
+      "seconds": 31.04,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat.  Inside, Mira watched the planet's dawn crawl across the viewport.  A world of rust and ice that no human had ever touched.  \"We came expecting a home,\" she said.  Instead, we found a question.  Behind her, the ship's mind answered in a voice like falling snow.  Then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.962
+        }
+      }
+    },
+    {
+      "label": "en-m-will",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "will",
+      "note": "premade will (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594675-V75NQYwDoE2PVQumTVVM",
+      "bytes": 502848,
+      "seconds": 31.36,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. ask it properly.",
+          "similarity": 0.863
+        }
+      }
+    },
+    {
+      "label": "en-m-chris",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "chris",
+      "note": "premade chris (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594686-sP3bMm9xqpgTS0jv0gkJ",
+      "bytes": 488638,
+      "seconds": 30.48,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. early.",
+          "similarity": 0.84
+        }
+      }
+    },
+    {
+      "label": "en-m-roger",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "roger",
+      "note": "premade roger (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594698-M1Qz3resdJmAGcPWqMDd",
+      "bytes": 518313,
+      "seconds": 32.32,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. 'We came expecting a home,' she said. 'Instead, we found a question.' Behind her, the ship's mind answered in a voice like falling snow. 'Then we shall spend our lives learning how to ask it properly.'",
+          "similarity": 0.978
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.962
+        }
+      }
+    },
+    {
+      "label": "en-m-liam",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "liam",
+      "note": "premade liam (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594709-VNHJy9enOh8Yyn7EOHmD",
+      "bytes": 478607,
+      "seconds": 29.84,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet’s dawn crawl across the viewport—a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship’s mind answered in a voice like falling snow: \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.989
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat.  Inside, Mira watched the planet's dawn crawl across the viewport.  a world of rust and ice that no human had ever touched.  \"We came expecting a home,\" she said.  Instead, we found a question.  Behind her, the ship's mind answered in a voice like falling snow.  then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.962
+        }
+      }
+    },
+    {
+      "label": "en-m-harry",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "harry",
+      "note": "premade harry (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594723-VXU1iaV2Q5iS9AP3Xbbt",
+      "bytes": 496579,
+      "seconds": 30.96,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. \"We came expecting a home,\" she said. \"Instead, we found a question.\" Behind her, the ship's mind answered in a voice like falling snow. \"Then we shall spend our lives learning how to ask it properly.\"",
+          "similarity": 0.991
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. Then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.965
+        }
+      }
+    },
+    {
+      "label": "en-m-bill",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "bill",
+      "note": "premade bill (male)",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594735-7dC1j3Qgzr8ICSNxErMv",
+      "bytes": 563035,
+      "seconds": 35.12,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. 'We came expecting a home,' she said. 'Instead, we found a question.' Behind her, the ship's mind answered in a voice like falling snow. 'Then we shall spend our lives learning how to ask it properly.'",
+          "similarity": 0.978
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched. We came expecting a home, she said. Instead, we found a question. Behind her, the ship's mind answered in a voice like falling snow. Then we shall spend our lives learning how to ask it properly.",
+          "similarity": 0.965
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Bella",
+    "full_name": "Bella - Professional, Bright, Warm",
+    "id": "hpp4J3VqNfWAUOO0d1Us",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "female",
+      "age": "middle_aged",
+      "descriptive": "professional",
+      "use_case": "informative_educational"
+    }
+  },
+  {
+    "name": "Roger",
+    "full_name": "Roger - Laid-Back, Casual, Resonant",
+    "id": "CwhRBWXzGAHq8TQ4Fs17",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "classy",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Sarah",
+    "full_name": "Sarah - Mature, Reassuring, Confident",
+    "id": "EXAVITQu4vr4xnSDxMaL",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "female",
+      "age": "young",
+      "descriptive": "professional",
+      "use_case": "entertainment_tv"
+    }
+  },
+  {
+    "name": "Laura",
+    "full_name": "Laura - Enthusiast, Quirky Attitude",
+    "id": "FGY2WhTYpPnrIDTdsKH5",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "female",
+      "age": "young",
+      "descriptive": "sassy",
+      "use_case": "social_media"
+    }
+  },
+  {
+    "name": "Charlie",
+    "full_name": "Charlie - Deep, Confident, Energetic",
+    "id": "IKne3meq5aSn9XLyUdCD",
+    "labels": {
+      "accent": "australian",
+      "language": "en",
+      "gender": "male",
+      "age": "young",
+      "descriptive": "hyped",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "George",
+    "full_name": "George - Warm, Captivating Storyteller",
+    "id": "JBFqnCBsd6RMkjVDRZzb",
+    "labels": {
+      "accent": "british",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "mature",
+      "use_case": "narrative_story"
+    }
+  },
+  {
+    "name": "Callum",
+    "full_name": "Callum - Husky Trickster",
+    "id": "N2lVS1w4EtoT3dr4eOWO",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "use_case": "characters_animation"
+    }
+  },
+  {
+    "name": "River",
+    "full_name": "River - Relaxed, Neutral, Informative",
+    "id": "SAz9YHcvj6GT2YYXdXww",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "neutral",
+      "age": "middle_aged",
+      "descriptive": "calm",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Harry",
+    "full_name": "Harry - Fierce Warrior",
+    "id": "SOYHLrjzK2X1ezoPC6cr",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "young",
+      "descriptive": "rough",
+      "use_case": "characters_animation"
+    }
+  },
+  {
+    "name": "Liam",
+    "full_name": "Liam - Energetic, Social Media Creator",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "young",
+      "descriptive": "confident",
+      "use_case": "social_media"
+    }
+  },
+  {
+    "name": "Alice",
+    "full_name": "Alice - Clear, Engaging Educator",
+    "id": "Xb7hH8MSUJpSbSDYk0k2",
+    "labels": {
+      "accent": "british",
+      "language": "en",
+      "gender": "female",
+      "age": "middle_aged",
+      "descriptive": "professional",
+      "use_case": "informative_educational"
+    }
+  },
+  {
+    "name": "Matilda",
+    "full_name": "Matilda - Knowledgable, Professional",
+    "id": "XrExE9yKIg1WjnnlVkGX",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "female",
+      "age": "middle_aged",
+      "descriptive": "upbeat",
+      "use_case": "informative_educational"
+    }
+  },
+  {
+    "name": "Will",
+    "full_name": "Will - Relaxed Optimist",
+    "id": "bIHbv24MWmeRgasZH58o",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "young",
+      "descriptive": "chill",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Jessica",
+    "full_name": "Jessica - Playful, Bright, Warm",
+    "id": "cgSgspJ2msm6clMCkdW9",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "female",
+      "age": "young",
+      "descriptive": "cute",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Eric",
+    "full_name": "Eric - Smooth, Trustworthy",
+    "id": "cjVigY5qzO86Huf0OWal",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "classy",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Chris",
+    "full_name": "Chris - Charming, Down-to-Earth",
+    "id": "iP95p4xoKVk53GoZ742B",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "casual",
+      "use_case": "conversational"
+    }
+  },
+  {
+    "name": "Brian",
+    "full_name": "Brian - Deep, Resonant and Comforting",
+    "id": "nPczCjzI2devNBz1zQrb",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "classy",
+      "use_case": "social_media"
+    }
+  },
+  {
+    "name": "Daniel",
+    "full_name": "Daniel - Steady Broadcaster",
+    "id": "onwK4e9ZLuTAKqWW03F9",
+    "labels": {
+      "accent": "british",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "descriptive": "formal",
+      "use_case": "informative_educational"
+    }
+  },
+  {
+    "name": "Lily",
+    "full_name": "Lily - Velvety Actress",
+    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "labels": {
+      "accent": "british",
+      "language": "en",
+      "gender": "female",
+      "age": "middle_aged",
+      "descriptive": "confident",
+      "use_case": "informative_educational"
+    }
+  },
+  {
+    "name": "Adam",
+    "full_name": "Adam - Dominant, Firm",
+    "id": "pNInz6obpgDQGcFmaJgB",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "middle_aged",
+      "use_case": "social_media"
+    }
+  },
+  {
+    "name": "Bill",
+    "full_name": "Bill - Wise, Mature, Balanced",
+    "id": "pqHfZKP75CvOlQylNhV4",
+    "labels": {
+      "accent": "american",
+      "language": "en",
+      "gender": "male",
+      "age": "old",
+      "descriptive": "crisp",
+      "use_case": "advertisement"
+    }
+  }
+]

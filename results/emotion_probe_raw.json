@@ -1,0 +1,51 @@
+{
+  "baseline-run1": {
+    "md5": "f19e316305",
+    "bytes": 86979,
+    "rms": 0.1191,
+    "centroid_hz": 968,
+    "hi_energy_ratio": 0.0769
+  },
+  "baseline-run2": {
+    "md5": "707a980d9b",
+    "bytes": 90741,
+    "rms": 0.113,
+    "centroid_hz": 994,
+    "hi_energy_ratio": 0.074
+  },
+  "tag-whispering": {
+    "md5": "7d7667d3fd",
+    "bytes": 88233,
+    "rms": 0.0689,
+    "centroid_hz": 4779,
+    "hi_energy_ratio": 0.624
+  },
+  "tag-cheerfully": {
+    "md5": "1ae253d549",
+    "bytes": 90741,
+    "rms": 0.102,
+    "centroid_hz": 1292,
+    "hi_energy_ratio": 0.1257
+  },
+  "voice_settings": {
+    "md5": "673a68ce97",
+    "bytes": 89487,
+    "rms": 0.1136,
+    "centroid_hz": 1082,
+    "hi_energy_ratio": 0.0971
+  },
+  "instructions": {
+    "md5": "f36052025c",
+    "bytes": 89487,
+    "rms": 0.1163,
+    "centroid_hz": 980,
+    "hi_energy_ratio": 0.0808
+  },
+  "mai-style": {
+    "md5": "e9c20a40dc",
+    "bytes": 106560,
+    "rms": 0.1551,
+    "centroid_hz": 605,
+    "hi_energy_ratio": 0.0162
+  }
+}

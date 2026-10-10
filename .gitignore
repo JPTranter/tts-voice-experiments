@@ -1,0 +1,10 @@
+# caches and probes: regenerable, not deliverables
+audio/birthday/raw/
+audio/birthday/parts/
+audio/emotion_probe/
+audio/_speed_probe/
+audio/renders/
+__pycache__/
+*.pyc
+# scratch wav intermediates
+*.wav

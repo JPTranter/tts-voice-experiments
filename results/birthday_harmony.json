@@ -1,0 +1,935 @@
+{
+  "song": "Happy Birthday to Bel",
+  "model": "elevenlabs/eleven-v4",
+  "bpm": 96.0,
+  "key": "D major",
+  "arrangement": {
+    "F1": {
+      "voice": "sarah",
+      "gender": "female",
+      "interval_steps": 0,
+      "reference_hz": 202.9
+    },
+    "F2": {
+      "voice": "jessica",
+      "gender": "female",
+      "interval_steps": -2,
+      "reference_hz": 173.6
+    },
+    "M1": {
+      "voice": "george",
+      "gender": "male",
+      "interval_steps": -5,
+      "reference_hz": 121.1
+    },
+    "M2": {
+      "voice": "brian",
+      "gender": "male",
+      "interval_steps": -7,
+      "reference_hz": 98.8
+    }
+  },
+  "output": "C:\\Users\\jptra\\Projects\\tts-voice-experiments\\audio\\birthday\\happy-birthday-to-bel-4part-harmony.mp3",
+  "parts": [
+    {
+      "part": "F1",
+      "voice": "sarah",
+      "gender": "female",
+      "reference_midi": 55.6,
+      "reference_hz": 202.9,
+      "notes": [
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": -1.51,
+          "measured_hz": 222.2,
+          "measured_midi": 57.17,
+          "cents_error": 17.4
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": 0.91,
+          "measured_hz": 221.5,
+          "measured_midi": 57.12,
+          "cents_error": 12.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 59,
+          "shift_semitones": 4.46,
+          "measured_hz": 251.5,
+          "measured_midi": 59.32,
+          "cents_error": 31.5
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": 2.12,
+          "measured_hz": 228.6,
+          "measured_midi": 57.66,
+          "cents_error": 66.2
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 62,
+          "target_midi": 62,
+          "shift_semitones": 7.93,
+          "measured_hz": 295.1,
+          "measured_midi": 62.08,
+          "cents_error": 8.2
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 61,
+          "target_midi": 61,
+          "shift_semitones": 3.31,
+          "measured_hz": 279.4,
+          "measured_midi": 61.14,
+          "cents_error": 13.7
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": -1.51,
+          "measured_hz": 222.2,
+          "measured_midi": 57.17,
+          "cents_error": 17.4
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": 0.91,
+          "measured_hz": 221.5,
+          "measured_midi": 57.12,
+          "cents_error": 12.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 59,
+          "shift_semitones": 4.46,
+          "measured_hz": 251.5,
+          "measured_midi": 59.32,
+          "cents_error": 31.5
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": 2.12,
+          "measured_hz": 228.6,
+          "measured_midi": 57.66,
+          "cents_error": 66.2
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 64,
+          "shift_semitones": 9.93,
+          "measured_hz": 357.3,
+          "measured_midi": 65.4,
+          "cents_error": 139.6
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 62,
+          "shift_semitones": 4.31,
+          "measured_hz": 299.1,
+          "measured_midi": 62.32,
+          "cents_error": 31.8
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": -1.51,
+          "measured_hz": 222.2,
+          "measured_midi": 57.17,
+          "cents_error": 17.4
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 57,
+          "shift_semitones": 0.91,
+          "measured_hz": 221.5,
+          "measured_midi": 57.12,
+          "cents_error": 12.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 69,
+          "target_midi": 69,
+          "shift_semitones": 14.46,
+          "measured_hz": 459.6,
+          "measured_midi": 69.75,
+          "cents_error": 75.4
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 66,
+          "target_midi": 66,
+          "shift_semitones": 11.12,
+          "measured_hz": 362.6,
+          "measured_midi": 65.65,
+          "cents_error": -35.0
+        },
+        {
+          "syllable": "deer",
+          "melody_midi": 62,
+          "target_midi": 62,
+          "shift_semitones": 6.4,
+          "measured_hz": 294.0,
+          "measured_midi": 62.02,
+          "cents_error": 1.8
+        },
+        {
+          "syllable": "bel",
+          "melody_midi": 61,
+          "target_midi": 61,
+          "shift_semitones": 5.35,
+          "measured_hz": 272.1,
+          "measured_midi": 60.68,
+          "cents_error": -32.1
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 67,
+          "target_midi": 67,
+          "shift_semitones": 8.49,
+          "measured_hz": 381.0,
+          "measured_midi": 66.51,
+          "cents_error": -49.5
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 67,
+          "target_midi": 67,
+          "shift_semitones": 10.91,
+          "measured_hz": 352.9,
+          "measured_midi": 65.18,
+          "cents_error": -181.7
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 66,
+          "target_midi": 66,
+          "shift_semitones": 11.46,
+          "measured_hz": 366.0,
+          "measured_midi": 65.81,
+          "cents_error": -18.6
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 62,
+          "target_midi": 62,
+          "shift_semitones": 7.12,
+          "measured_hz": 292.3,
+          "measured_midi": 61.92,
+          "cents_error": -7.9
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 64,
+          "shift_semitones": 9.93,
+          "measured_hz": 352.9,
+          "measured_midi": 65.18,
+          "cents_error": 117.9
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 62,
+          "shift_semitones": 4.31,
+          "measured_hz": 303.3,
+          "measured_midi": 62.56,
+          "cents_error": 55.7
+        }
+      ]
+    },
+    {
+      "part": "F2",
+      "voice": "jessica",
+      "gender": "female",
+      "reference_midi": 52.9,
+      "reference_hz": 173.6,
+      "notes": [
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.1,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.07,
+          "measured_hz": 179.1,
+          "measured_midi": 53.44,
+          "cents_error": -56.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 55,
+          "shift_semitones": 0.34,
+          "measured_hz": 190.9,
+          "measured_midi": 54.55,
+          "cents_error": -45.2
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.13,
+          "measured_hz": 187.3,
+          "measured_midi": 54.22,
+          "cents_error": 21.5
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 62,
+          "target_midi": 59,
+          "shift_semitones": 6.76,
+          "measured_hz": 256.4,
+          "measured_midi": 59.65,
+          "cents_error": 65.0
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 61,
+          "target_midi": 57,
+          "shift_semitones": 4.1,
+          "measured_hz": 275.8,
+          "measured_midi": 60.92,
+          "cents_error": 391.5
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.1,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.07,
+          "measured_hz": 179.1,
+          "measured_midi": 53.44,
+          "cents_error": -56.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 55,
+          "shift_semitones": 0.34,
+          "measured_hz": 190.9,
+          "measured_midi": 54.55,
+          "cents_error": -45.2
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.13,
+          "measured_hz": 187.3,
+          "measured_midi": 54.22,
+          "cents_error": 21.5
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 61,
+          "shift_semitones": 8.76,
+          "measured_hz": 281.0,
+          "measured_midi": 61.24,
+          "cents_error": 23.9
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 59,
+          "shift_semitones": 6.1,
+          "measured_hz": 301.5,
+          "measured_midi": 62.46,
+          "cents_error": 345.9
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.1,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 54,
+          "shift_semitones": 1.07,
+          "measured_hz": 179.1,
+          "measured_midi": 53.44,
+          "cents_error": -56.0
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 69,
+          "target_midi": 66,
+          "shift_semitones": 11.34,
+          "measured_hz": 359.0,
+          "measured_midi": 65.48,
+          "cents_error": -52.1
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 66,
+          "target_midi": 62,
+          "shift_semitones": 9.13,
+          "measured_hz": 296.3,
+          "measured_midi": 62.15,
+          "cents_error": 15.4
+        },
+        {
+          "syllable": "deer",
+          "melody_midi": 62,
+          "target_midi": 59,
+          "shift_semitones": 4.69,
+          "measured_hz": 233.0,
+          "measured_midi": 57.99,
+          "cents_error": -100.5
+        },
+        {
+          "syllable": "bel",
+          "melody_midi": 61,
+          "target_midi": 57,
+          "shift_semitones": 4.16,
+          "measured_hz": 227.4,
+          "measured_midi": 57.57,
+          "cents_error": 57.0
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 67,
+          "target_midi": 64,
+          "shift_semitones": 11.1,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 67,
+          "target_midi": 64,
+          "shift_semitones": 11.07,
+          "measured_hz": 335.1,
+          "measured_midi": 64.28,
+          "cents_error": 28.4
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 66,
+          "target_midi": 62,
+          "shift_semitones": 7.34,
+          "measured_hz": 294.5,
+          "measured_midi": 62.05,
+          "cents_error": 4.8
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 62,
+          "target_midi": 59,
+          "shift_semitones": 6.13,
+          "measured_hz": 255.5,
+          "measured_midi": 59.59,
+          "cents_error": 58.9
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 61,
+          "shift_semitones": 8.76,
+          "measured_hz": 287.1,
+          "measured_midi": 61.61,
+          "cents_error": 60.9
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 59,
+          "shift_semitones": 6.1,
+          "measured_hz": 333.3,
+          "measured_midi": 64.19,
+          "cents_error": 519.4
+        }
+      ]
+    },
+    {
+      "part": "M1",
+      "voice": "george",
+      "gender": "male",
+      "reference_midi": 46.66,
+      "reference_hz": 121.1,
+      "notes": [
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.34,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.64,
+          "measured_hz": 184.6,
+          "measured_midi": 53.96,
+          "cents_error": 496.4
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 50,
+          "shift_semitones": 1.91,
+          "measured_hz": 157.9,
+          "measured_midi": 51.26,
+          "cents_error": 125.8
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.22,
+          "measured_hz": 140.4,
+          "measured_midi": 49.22,
+          "cents_error": 21.8
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 62,
+          "target_midi": 54,
+          "shift_semitones": 8.17,
+          "measured_hz": 228.5,
+          "measured_midi": 57.65,
+          "cents_error": 365.3
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 61,
+          "target_midi": 52,
+          "shift_semitones": 3.03,
+          "measured_hz": 156.4,
+          "measured_midi": 51.09,
+          "cents_error": -90.7
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.34,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.64,
+          "measured_hz": 184.6,
+          "measured_midi": 53.96,
+          "cents_error": 496.4
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 50,
+          "shift_semitones": 1.91,
+          "measured_hz": 157.9,
+          "measured_midi": 51.26,
+          "cents_error": 125.8
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.22,
+          "measured_hz": 140.4,
+          "measured_midi": 49.22,
+          "cents_error": 21.8
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 55,
+          "shift_semitones": 9.17,
+          "measured_hz": 265.6,
+          "measured_midi": 60.26,
+          "cents_error": 525.9
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 54,
+          "shift_semitones": 5.03,
+          "measured_hz": 178.6,
+          "measured_midi": 53.39,
+          "cents_error": -61.1
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.34,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 49,
+          "shift_semitones": 2.64,
+          "measured_hz": 184.6,
+          "measured_midi": 53.96,
+          "cents_error": 496.4
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 69,
+          "target_midi": 61,
+          "shift_semitones": 12.91,
+          "measured_hz": 272.7,
+          "measured_midi": 60.72,
+          "cents_error": -28.1
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 66,
+          "target_midi": 57,
+          "shift_semitones": 10.22,
+          "measured_hz": 228.2,
+          "measured_midi": 57.63,
+          "cents_error": 63.3
+        },
+        {
+          "syllable": "deer",
+          "melody_midi": 62,
+          "target_midi": 54,
+          "shift_semitones": 7.16,
+          "measured_hz": 177.2,
+          "measured_midi": 53.26,
+          "cents_error": -74.3
+        },
+        {
+          "syllable": "bel",
+          "melody_midi": 61,
+          "target_midi": 52,
+          "shift_semitones": 5.45,
+          "measured_hz": 170.8,
+          "measured_midi": 52.62,
+          "cents_error": 61.8
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 67,
+          "target_midi": 59,
+          "shift_semitones": 12.34,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 67,
+          "target_midi": 59,
+          "shift_semitones": 12.64,
+          "measured_hz": 307.6,
+          "measured_midi": 62.8,
+          "cents_error": 380.2
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 66,
+          "target_midi": 57,
+          "shift_semitones": 8.91,
+          "measured_hz": 222.6,
+          "measured_midi": 57.2,
+          "cents_error": 20.0
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 62,
+          "target_midi": 54,
+          "shift_semitones": 7.22,
+          "measured_hz": 196.8,
+          "measured_midi": 55.07,
+          "cents_error": 107.1
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 55,
+          "shift_semitones": 9.17,
+          "measured_hz": 210.0,
+          "measured_midi": 56.19,
+          "cents_error": 119.5
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 54,
+          "shift_semitones": 5.03,
+          "measured_hz": 179.9,
+          "measured_midi": 53.51,
+          "cents_error": -48.7
+        }
+      ]
+    },
+    {
+      "part": "M2",
+      "voice": "brian",
+      "gender": "male",
+      "reference_midi": 43.14,
+      "reference_hz": 98.8,
+      "notes": [
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 47,
+          "shift_semitones": 3.92,
+          "measured_hz": 127.0,
+          "measured_midi": 47.49,
+          "cents_error": 49.3
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 2.41,
+          "measured_hz": 112.6,
+          "measured_midi": 45.4,
+          "cents_error": 40.3
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 62,
+          "target_midi": 50,
+          "shift_semitones": 6.86,
+          "measured_hz": 206.2,
+          "measured_midi": 55.88,
+          "cents_error": 587.8
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 61,
+          "target_midi": 49,
+          "shift_semitones": 5.86,
+          "measured_hz": 192.8,
+          "measured_midi": 54.72,
+          "cents_error": 571.7
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 59,
+          "target_midi": 47,
+          "shift_semitones": 3.92,
+          "measured_hz": 127.0,
+          "measured_midi": 47.49,
+          "cents_error": 49.3
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 2.41,
+          "measured_hz": 112.6,
+          "measured_midi": 45.4,
+          "cents_error": 40.3
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 52,
+          "shift_semitones": 8.86,
+          "measured_hz": 230.6,
+          "measured_midi": 57.81,
+          "cents_error": 581.1
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 50,
+          "shift_semitones": 6.86,
+          "measured_hz": 177.1,
+          "measured_midi": 53.25,
+          "cents_error": 324.8
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 57,
+          "target_midi": 45,
+          "shift_semitones": 1.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 69,
+          "target_midi": 57,
+          "shift_semitones": 13.92,
+          "measured_hz": 232.8,
+          "measured_midi": 57.98,
+          "cents_error": 98.2
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 66,
+          "target_midi": 54,
+          "shift_semitones": 11.41,
+          "measured_hz": 193.7,
+          "measured_midi": 54.8,
+          "cents_error": 79.8
+        },
+        {
+          "syllable": "deer",
+          "melody_midi": 62,
+          "target_midi": 50,
+          "shift_semitones": 6.55,
+          "measured_hz": 156.9,
+          "measured_midi": 51.15,
+          "cents_error": 115.0
+        },
+        {
+          "syllable": "bel",
+          "melody_midi": 61,
+          "target_midi": 49,
+          "shift_semitones": 5.8,
+          "measured_hz": 138.6,
+          "measured_midi": 48.99,
+          "cents_error": -0.5
+        },
+        {
+          "syllable": "hap",
+          "melody_midi": 67,
+          "target_midi": 55,
+          "shift_semitones": 11.86,
+          "measured_hz": 0.0,
+          "measured_midi": null,
+          "cents_error": null
+        },
+        {
+          "syllable": "pee",
+          "melody_midi": 67,
+          "target_midi": 55,
+          "shift_semitones": 11.86,
+          "measured_hz": 267.8,
+          "measured_midi": 60.4,
+          "cents_error": 540.5
+        },
+        {
+          "syllable": "burt",
+          "melody_midi": 66,
+          "target_midi": 54,
+          "shift_semitones": 10.92,
+          "measured_hz": 190.2,
+          "measured_midi": 54.48,
+          "cents_error": 47.8
+        },
+        {
+          "syllable": "day",
+          "melody_midi": 62,
+          "target_midi": 50,
+          "shift_semitones": 7.41,
+          "measured_hz": 147.5,
+          "measured_midi": 50.07,
+          "cents_error": 7.3
+        },
+        {
+          "syllable": "too",
+          "melody_midi": 64,
+          "target_midi": 52,
+          "shift_semitones": 8.86,
+          "measured_hz": 172.4,
+          "measured_midi": 52.78,
+          "cents_error": 78.3
+        },
+        {
+          "syllable": "yoo",
+          "melody_midi": 62,
+          "target_midi": 50,
+          "shift_semitones": 6.86,
+          "measured_hz": 193.8,
+          "measured_midi": 54.8,
+          "cents_error": 480.1
+        }
+      ]
+    }
+  ]
+}

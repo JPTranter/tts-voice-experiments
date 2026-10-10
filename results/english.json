@@ -1,0 +1,71 @@
+{
+  "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport - a world of rust and ice that no human had ever touched.",
+  "results": [
+    {
+      "label": "el-sarah",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "sarah",
+      "note": "premade Sarah",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594220-8PwniN32prfs6fM4Euk4",
+      "bytes": 287599,
+      "seconds": 17.92,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.992
+        },
+        "openai/whisper-large-v3": {
+          "text": "The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.968
+        }
+      }
+    },
+    {
+      "label": "el-alice",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "alice",
+      "note": "premade Alice",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594229-x0kLuLLhuqoHycPUEfBQ",
+      "bytes": 294287,
+      "seconds": 18.32,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.992
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.968
+        }
+      }
+    },
+    {
+      "label": "el-matilda",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "matilda",
+      "note": "premade Matilda",
+      "http": 200,
+      "response_format": "mp3",
+      "content_type": "audio/mpeg",
+      "generation_id": "gen-tts-1791594236-eSxwZsYhZkhWaeo29ewK",
+      "bytes": 293033,
+      "seconds": 18.24,
+      "transcriptions": {
+        "elevenlabs/scribe-v2": {
+          "text": "The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.992
+        },
+        "openai/whisper-large-v3": {
+          "text": " The colony ship Argent drifted past the Terminator line, its hull ticking as 40 years of micrometeorites gave up their heat. Inside, Mira watched the planet's dawn crawl across the viewport, a world of rust and ice that no human had ever touched.",
+          "similarity": 0.968
+        }
+      }
+    }
+  ]
+}

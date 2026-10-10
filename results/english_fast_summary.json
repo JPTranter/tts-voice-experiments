@@ -1,0 +1,142 @@
+[
+  {
+    "voice": "sarah",
+    "normal_s": 32.48,
+    "fast_s": 21.44,
+    "ratio": 0.66,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "alice",
+    "normal_s": 32.72,
+    "fast_s": 22.03,
+    "ratio": 0.673,
+    "stt_sim": 0.984
+  },
+  {
+    "voice": "matilda",
+    "normal_s": 32.72,
+    "fast_s": 21.71,
+    "ratio": 0.664,
+    "stt_sim": 0.98
+  },
+  {
+    "voice": "jessica",
+    "normal_s": 31.76,
+    "fast_s": 21.17,
+    "ratio": 0.667,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "lily",
+    "normal_s": 33.36,
+    "fast_s": 22.41,
+    "ratio": 0.672,
+    "stt_sim": 0.976
+  },
+  {
+    "voice": "bella",
+    "normal_s": 32.88,
+    "fast_s": 21.92,
+    "ratio": 0.667,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "laura",
+    "normal_s": 31.44,
+    "fast_s": 20.96,
+    "ratio": 0.667,
+    "stt_sim": 0.98
+  },
+  {
+    "voice": "adam",
+    "normal_s": 32.24,
+    "fast_s": 21.39,
+    "ratio": 0.663,
+    "stt_sim": 0.976
+  },
+  {
+    "voice": "george",
+    "normal_s": 32.32,
+    "fast_s": 21.39,
+    "ratio": 0.662,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "brian",
+    "normal_s": 30.4,
+    "fast_s": 20.0,
+    "ratio": 0.658,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "daniel",
+    "normal_s": 32.96,
+    "fast_s": 21.92,
+    "ratio": 0.665,
+    "stt_sim": 0.978
+  },
+  {
+    "voice": "eric",
+    "normal_s": 30.32,
+    "fast_s": 20.64,
+    "ratio": 0.681,
+    "stt_sim": 0.98
+  },
+  {
+    "voice": "callum",
+    "normal_s": 33.84,
+    "fast_s": 22.72,
+    "ratio": 0.671,
+    "stt_sim": 0.973
+  },
+  {
+    "voice": "charlie",
+    "normal_s": 31.04,
+    "fast_s": 20.66,
+    "ratio": 0.666,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "will",
+    "normal_s": 31.36,
+    "fast_s": 21.24,
+    "ratio": 0.677,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "chris",
+    "normal_s": 30.48,
+    "fast_s": 19.85,
+    "ratio": 0.651,
+    "stt_sim": 0.98
+  },
+  {
+    "voice": "roger",
+    "normal_s": 32.32,
+    "fast_s": 21.39,
+    "ratio": 0.662,
+    "stt_sim": 0.976
+  },
+  {
+    "voice": "liam",
+    "normal_s": 29.84,
+    "fast_s": 20.59,
+    "ratio": 0.69,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "harry",
+    "normal_s": 30.96,
+    "fast_s": 20.64,
+    "ratio": 0.667,
+    "stt_sim": 0.991
+  },
+  {
+    "voice": "bill",
+    "normal_s": 35.12,
+    "fast_s": 22.83,
+    "ratio": 0.65,
+    "stt_sim": 0.973
+  }
+]
