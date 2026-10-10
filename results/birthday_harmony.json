@@ -29,7 +29,7 @@
       "reference_hz": 98.8
     }
   },
-  "output": "C:\\Users\\jptra\\Projects\\tts-voice-experiments\\audio\\birthday\\happy-birthday-to-bel-4part-harmony.mp3",
+  "output": "audio\\birthday\\happy-birthday-to-bel-4part-harmony.mp3",
   "parts": [
     {
       "part": "F1",

@@ -69,6 +69,15 @@ BEAT = 60.0 / BPM
 SR = 24000
 
 
+def rel(path: Path) -> str:
+    """Repo-relative path: committed artifacts must not contain the user's absolute
+    home path (privacy - mirrored from the eClock repo's policy)."""
+    try:
+        return Path(path).resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return Path(path).name
+
+
 def step_to_midi(step: int) -> int:
     octave, idx = divmod(step, 7)
     return BASE_MIDI + 12 * octave + SCALE[idx]
@@ -297,7 +306,7 @@ def main() -> None:
         "arrangement": {p: {"voice": v, "gender": g, "interval_steps": PART_STEPS[p],
                             "reference_hz": round(440.0 * 2 ** ((references[v] - 69) / 12), 1)}
                         for p, (v, g) in VOICES.items()},
-        "output": str(final), "parts": report,
+        "output": rel(final), "parts": report,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nwrote {final} ({final.stat().st_size} bytes)")
 

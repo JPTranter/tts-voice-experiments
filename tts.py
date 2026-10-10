@@ -157,6 +157,15 @@ def transcribe(path: Path, language: str | None = None, model: str = VERIFY_MODE
         return {"error": e.code, "body": e.read().decode("utf-8", "replace")[:200]}
 
 
+def rel(path) -> str:
+    """Repo-relative path for committed manifests: never write the user's absolute home path
+    into an artifact (privacy policy mirrored from the sibling eClock repo)."""
+    try:
+        return Path(path).resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return Path(path).name
+
+
 def slug(name: str, limit: int = 24) -> str:
     """Filesystem-safe voice name. Azure voice ids contain ':' (ko-KR-Haena:MAI-Voice-2.1) which is
     illegal in a Windows path and crashed the render."""
@@ -319,7 +328,7 @@ def cmd_say(args: argparse.Namespace) -> None:
         f = work / f"chunk-{i:03d}.mp3"
         if f.exists() and f.stat().st_size > 1000 and not args.force:
             print(f"  [{i}] cached  {f.stat().st_size} bytes")
-            manifest.append({"index": i, "chars": len(chunk), "file": str(f), "cached": True,
+            manifest.append({"index": i, "chars": len(chunk), "file": rel(f), "cached": True,
                              "text": chunk[:200]})
             continue
         prev_text = chunks[i - 1][-400:] if i else None
@@ -345,7 +354,7 @@ def cmd_say(args: argparse.Namespace) -> None:
             costlabel = f"${c:.5f}"
         print(f"  [{i}] {len(chunk):5d} chars -> {f.stat().st_size:7d} bytes  "
               f"{duration(f):6.2f}s  {costlabel}")
-        manifest.append({"index": i, "chars": len(chunk), "file": str(f), "bytes": f.stat().st_size,
+        manifest.append({"index": i, "chars": len(chunk), "file": rel(f), "bytes": f.stat().st_size,
                          "seconds": duration(f), "generation_id": gid, "cost_usd": c,
                          "emotion_tags": sorted(set(re.findall(r"\[[a-z]+\]", chunk)))})
 
@@ -375,7 +384,7 @@ def cmd_say(args: argparse.Namespace) -> None:
             print(f"  [{m['index']}] similarity {m['similarity']}  {txt[:80]!r}")
     (work / "manifest.json").write_text(json.dumps(
         {"model": args.model, "voice": args.voice, "text_chars": len(text), "chunks": manifest,
-         "output": str(final), "speed": args.speed, "cost_usd": round(cost, 6)},
+         "output": rel(final), "speed": args.speed, "cost_usd": round(cost, 6)},
         ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"manifest: {work / 'manifest.json'}")
 

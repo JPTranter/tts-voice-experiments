@@ -229,7 +229,7 @@ def cmd_say(args: argparse.Namespace) -> None:
         print(f"   STT: {txt[:120]!r}")
         print(f"   similarity to input: {similarity(text, txt)}")
     (OUT_DIR / f"{out.stem}.manifest.json").write_text(json.dumps(
-        {"engine": args.engine, "voice": args.voice, "text_chars": len(text), "output": str(out),
+        {"engine": args.engine, "voice": args.voice, "text_chars": len(text), "output": (out.relative_to(ROOT).as_posix() if ROOT in out.resolve().parents else out.name),
          "cost_usd": 0.0, "network": "offline synthesis; STT verification only if --verify"},
         ensure_ascii=False, indent=2), encoding="utf-8")
 
