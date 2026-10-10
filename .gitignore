@@ -1,3 +1,15 @@
+# ---- Secrets / local config (policy mirrored from the sibling eClock repo) ----
+# Never commit API keys, tokens or anything machine-specific. The OpenRouter key used by
+# this project lives in the Hermes profile .env, OUTSIDE this repository:
+#   ~/AppData/Local/hermes/profiles/engineer/.env   (OPENROUTER_API_KEY=...)
+# Scripts resolve it via $OPENROUTER_API_KEY or that path - never from a file here.
+.env
+.env.*
+!.env.example
+*.local.ini
+*.local.json
+secrets.json
+
 # caches and probes: regenerable, not deliverables
 audio/birthday/raw/
 audio/birthday/parts/

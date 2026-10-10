@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  # Secret scan on the CI side too: pre-commit is a local, per-commit gate, this
+  # catches anything that slipped past a --no-verify commit. Full history is
+  # fetched so an old commit cannot hide a credential.
+  secrets:
+    name: Secret scan (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # full history so the scan sees all commits
+      - name: Install gitleaks
+        run: |
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v8.18.4/gitleaks_8.18.4_linux_x64.tar.gz" \
+            | tar -xz -C /usr/local/bin gitleaks
+      - name: Run gitleaks (all history)
+        run: gitleaks detect --source . --config .gitleaks.toml --redact --exit-code 1
+
+  # Confirm the tooling still imports and the offline engine registry works.
+  tooling:
+    name: Tooling smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Byte-compile the entry points
+        run: python -m py_compile tts.py local_tts.py render.py discover.py birthday_harmony.py fetch_piper_voices.py
+      - name: CLI help must work without credentials
+        run: |
+          python tts.py --help > /dev/null
+          python local_tts.py --help > /dev/null

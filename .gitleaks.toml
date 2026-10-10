@@ -1,0 +1,25 @@
+# gitleaks configuration — https://github.com/gitleaks/gitleaks
+#
+# Mirrors the policy used in the sibling eClock repo: scan everything by default,
+# allowlist only KNOWN-SAFE content, never allowlist project source. Run locally with
+#   gitleaks git --config .gitleaks.toml --redact --exit-code 1
+# and in CI via .github/workflows/ci.yml (full history).
+
+[extend]
+# Keep the built-in rule set (API keys, tokens, private keys, connection strings).
+useDefault = true
+
+[allowlist]
+# Binary and generated material that trips the generic lookalike heuristics:
+#   * audio/      generated voice renders — MP3 payloads contain long high-entropy
+#                 byte runs that are not secrets (and are re-generatable).
+#   * models/     Piper ONNX weights, downloaded with md5 verification.
+#   * .venv/      local interpreter for the offline engines.
+#   * results/*.json  measurement output (durations, costs, generation ids).
+# Note: *.py, *.sh, README and everything else stay IN scope, so a real credential
+# committed to this project's own code is still caught.
+paths = [
+    '''audio/.*''',
+    '''models/.*''',
+    '''\.venv/.*''',
+]

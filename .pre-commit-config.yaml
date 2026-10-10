@@ -1,0 +1,28 @@
+# Pre-commit configuration — https://pre-commit.com  (mirrors the sibling eClock repo)
+#
+# The primary hook is gitleaks (secret scanning) and it blocks the commit on a match.
+# Install once:  pre-commit install
+# Run now:       pre-commit run --all-files
+
+repos:
+  # Secret scanning (the important one): credentials, tokens, private keys, API keys.
+  # https://github.com/gitleaks/gitleaks
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.4
+    hooks:
+      - id: gitleaks
+        args: [--config, .gitleaks.toml]
+
+  # Basic hygiene (auto-fixable).
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.(mp3|wav|onnx)$
+      - id: end-of-file-fixer
+        exclude: \.(mp3|wav|onnx)$
+      - id: check-yaml
+      - id: check-added-large-files
+        args: [--maxkb=2048]          # audio renders are ~0.5 MB; anything huge is a mistake
+      - id: check-merge-conflict
+      - id: detect-private-key        # blocks a committed private key outright
