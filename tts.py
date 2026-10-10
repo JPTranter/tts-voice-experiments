@@ -157,6 +157,12 @@ def transcribe(path: Path, language: str | None = None, model: str = VERIFY_MODE
         return {"error": e.code, "body": e.read().decode("utf-8", "replace")[:200]}
 
 
+def slug(name: str, limit: int = 24) -> str:
+    """Filesystem-safe voice name. Azure voice ids contain ':' (ko-KR-Haena:MAI-Voice-2.1) which is
+    illegal in a Windows path and crashed the render."""
+    return re.sub(r"[^A-Za-z0-9._-]", "_", name)[:limit] or "voice"
+
+
 def similarity(a: str, b: str) -> float:
     """1 - normalised Levenshtein. (difflib's autojunk heuristic scores near-identical long
     strings around 0.34, which is useless as a gate.)"""
@@ -302,7 +308,7 @@ def cmd_say(args: argparse.Namespace) -> None:
     fingerprint = hashlib.sha1(
         f"{args.model}|{args.voice}|{args.emotion}|{args.tags}|{instructions}|{text}".encode("utf-8")
     ).hexdigest()[:10]
-    work = OUT_DIR / f"{args.voice}-{fingerprint}"
+    work = OUT_DIR / f"{slug(args.voice)}-{fingerprint}"
     work.mkdir(parents=True, exist_ok=True)
     print(f"{args.model} / {args.voice}: {len(text)} chars -> {len(chunks)} chunk(s) "
           f"(limit {limit}, model cap {cap}, key {fingerprint})"

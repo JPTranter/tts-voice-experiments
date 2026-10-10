@@ -233,6 +233,57 @@ similarity 0.990–0.998. Cache is keyed on a hash of model+voice+emotion+instru
   returned nothing; it now prints `cost n/a` and counts unpriced requests, because a fabricated
   zero is worse than an admitted unknown.
 
+## Local engines (offline, $0 per character)
+
+`local_tts.py` drives what this machine can run without a network or an API key. Measured here:
+**no GPU** (`nvidia-smi` absent), so GPU-only models (e.g. Microsoft's open-weight VibeVoice) are out
+of reach; the viable local engines are Windows' own voices and Piper.
+
+| engine | voices available here | install | emotion |
+|---|---|---|---|
+| **SAPI** (Windows System.Speech) | Microsoft David (M), Zira (F) — plus Mark via the WinRT/OneCore list | none, already present | `{{markup}}` → SSML prosody (rate/pitch/volume): crude but measurable |
+| **Piper** (CPU, ONNX) | en_US-amy (F), en_US-ryan (M), en_GB-cori (F), **ko_KR-kss** | `uv pip install piper-tts` + `fetch_piper_voices.py` (md5-verified) | none — markup is stripped, never spoken |
+
+```bash
+python local_tts.py engines                      # what is usable right now
+python local_tts.py voices --engine piper
+python local_tts.py say --file samples/scifi-emotion-en.txt --engine piper --voice en_US-amy-medium --verify
+python local_tts.py say --file samples/scifi-emotion-ko.txt --engine piper --voice ko_KR-kss-medium
+python local_tts.py say "Hello." --engine sapi --voice "Microsoft Zira Desktop"
+```
+
+Quality vs cloud on the same script (`audio/local/` vs `audio/emotion/`), verified by STT round-trip:
+
+| engine | voice | seconds | STT similarity | cost |
+|---|---|---|---|---|
+| Piper | en_US-amy (F) | 28.8 | **0.978** | $0 |
+| SAPI | Zira (F) | 32.0 | **0.976** | $0 |
+| ElevenLabs v4 | sarah (F) | 31.0 | 0.992 | ~$0.018 |
+| Piper | ko_KR-kss | 36.1 | **0.932** | $0 |
+| ElevenLabs v4 | sora (KO) | 40.3 | 0.981 | ~$0.018 |
+
+So: local is intelligible and free, cloud is measurably more accurate and the only one with real
+expressiveness. SAPI's emotion mapping is provably not just cosmetic — the `{{whispering}}` segment
+lands at RMS 0.009 against 0.093 for the untagged read of the same script (10× quieter).
+
+## Emotion across the whole voice set
+
+Every voice from the earlier rounds was re-rendered from the marked-up scripts
+(`samples/scifi-emotion-en.txt`, `samples/scifi-emotion-ko.txt`) — 12 English, 3 Korean ElevenLabs,
+1 Korean Gemini, 1 Korean Azure, plus `-fast150` variants of the English set. Per-file measurements:
+`results/emotion_batch.json`.
+
+Honest limits of that batch:
+
+- Tags are **never spoken** in any render (STT checked on both an English and a Korean file).
+- The English v4 whisper is the well-evidenced effect (last-line high-band energy 0.092–0.178 across
+  the twelve voices).
+- **Korean is weaker evidence.** The tagged Korean renders are consistently quieter than the plain
+  renders of the same paragraph (RMS 0.047 vs 0.074 for sora, 0.082 vs 0.122 for annakim), but no
+  repeated-baseline variance was established for Korean, so this is a *changed delivery*, not a
+  proven whisper. The bright-whisper signature that makes English v4 so obvious does not appear.
+- Azure MAI still strips the markup: no verified emotion control on that path.
+
 ## Pitfalls found (all reproduced, not theoretical)
 
 1. **Non-ASCII in a shell-quoted `curl -d` body is a trap.** Sending Korean text inline from this
@@ -267,6 +318,14 @@ similarity 0.990–0.998. Cache is keyed on a hash of model+voice+emotion+instru
 10. **Key/register choice decides whether pitched-speech singing is listenable.** Speech voices sit
     at their speaking pitch (~200 Hz female, ~100–130 Hz male); a melody placed too high needs
     +19 semitone shifts and sounds strained.
+11. **Azure voice ids are illegal Windows directory names.** `ko-KR-Haena:MAI-Voice-2.1` contains a
+    colon; using it in a path raised `NotADirectoryError` and killed the render after the API call.
+    Slugify voice names before they touch the filesystem.
+12. **A pipeline hides the exit code.** `uv venv` creates an environment with no `pip`, and
+    `... | tail -2 && echo INSTALLED` reported success while nothing was installed. Use `uv pip
+    install --python <venv>`, and never chain a status check behind a pipe.
+13. **Local engines need the same distrust as cloud ones.** SAPI's SSML mapping and Piper's lack of
+    emotion support are both facts to measure (segment RMS/centroid), not assumptions from docs.
 
 ## Reproduce
 
