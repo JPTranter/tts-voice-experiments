@@ -1,45 +1,178 @@
 {
   "note": "Every mechanism below returns HTTP 200 from /api/v1/audio/speech - accepted is not the same as honoured. Verdicts rest on a measurable acoustic change (spectral centroid of the loudest 1s window, plus the fraction of spectral energy above 4 kHz) against REPEATED baseline renders, which showed real run-to-run spread (baseline centroid 936-1098 Hz on identical text). Raw first-pass numbers: emotion_probe_raw.json.",
   "measured_at": "2026-10-10",
-  "metrics": ["centroid_hz", "hi_energy_ratio_above_4k"],
+  "metrics": [
+    "centroid_hz",
+    "hi_energy_ratio_above_4k"
+  ],
   "results": [
-    {"mechanism": "inline audio tag [whispering]", "model": "elevenlabs/eleven-v4", "voice": "sarah",
-     "verdict": "WORKS", "evidence": {"plain": {"centroid_hz": 1106, "hi": 0.1057},
-     "tagged": {"centroid_hz": 4878, "hi": 0.6426}, "tag_spoken_aloud": false}},
-    {"mechanism": "inline audio tag [whispering]", "model": "elevenlabs/eleven-v3", "voice": "sarah",
-     "verdict": "IGNORED (silently)", "evidence": {"plain_runs": {"centroid_hz": [587, 589]},
-     "tagged": {"centroid_hz": 565}, "tag_spoken_aloud": false}},
-    {"mechanism": "inline audio tag [whispering]", "model": "elevenlabs/eleven-multilingual-v2",
-     "verdict": "DANGEROUS - tag is spoken", "evidence": {"tag_spoken_aloud": true,
-     "transcript_head": "Whispering. The colony ship drifted past the terminator line"}},
-    {"mechanism": "inline audio tag [whispering]", "model": "elevenlabs/eleven-flash-v2.5",
-     "verdict": "DANGEROUS - tag is spoken", "evidence": {"tag_spoken_aloud": true,
-     "transcript_head": "Whispering. The colony ship drifted past the terminator line"}},
-    {"mechanism": "instructions", "model": "google/gemini-3.8-flash-tts", "voice": "Kore",
-     "verdict": "WORKS", "evidence": {
-     "isolated_text": {"plain": {"centroid_hz": 661, "hi": 0.0236}, "instructed": {"centroid_hz": 3490, "hi": 0.389}},
-     "script_ab": {"plain": {"seconds": 33.68, "centroid_hz": 818, "hi": 0.023},
-                   "instructed": {"seconds": 39.08, "centroid_hz": 1510, "hi": 0.08}}}},
-    {"mechanism": "instructions", "model": "elevenlabs/eleven-v4", "voice": "sarah",
-     "verdict": "IGNORED", "evidence": {"plain_runs": {"centroid_hz": [968, 994]},
-     "instructed": {"centroid_hz": 980}}},
-    {"mechanism": "provider.options.elevenlabs.voice_settings {stability: 0.2, style: 0.9}",
-     "model": "elevenlabs/eleven-v4", "voice": "sarah", "verdict": "NO SEPARABLE EFFECT",
-     "evidence": {"baseline_runs_centroid_hz": [1098, 936, 1037],
-     "styled_runs_centroid_hz": [997, 1066, 960]}},
-    {"mechanism": "style + styledegree", "model": "microsoft/mai-voice-2.1",
-     "voice": "en-US-Harper:MAI-Voice-2.1", "verdict": "INCONCLUSIVE",
-     "evidence": {"plain_runs_centroid_hz": [550, 638], "styled_runs_centroid_hz": [601, 659],
-     "note": "difference is smaller than the run-to-run spread"}}
+    {
+      "mechanism": "inline audio tag [whispering]",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "sarah",
+      "verdict": "WORKS",
+      "evidence": {
+        "plain": {
+          "centroid_hz": 1106,
+          "hi": 0.1057
+        },
+        "tagged": {
+          "centroid_hz": 4878,
+          "hi": 0.6426
+        },
+        "tag_spoken_aloud": false
+      }
+    },
+    {
+      "mechanism": "inline audio tag [whispering]",
+      "model": "elevenlabs/eleven-v3",
+      "voice": "sarah",
+      "verdict": "IGNORED (silently)",
+      "evidence": {
+        "plain_runs": {
+          "centroid_hz": [
+            587,
+            589
+          ]
+        },
+        "tagged": {
+          "centroid_hz": 565
+        },
+        "tag_spoken_aloud": false
+      }
+    },
+    {
+      "mechanism": "inline audio tag [whispering]",
+      "model": "elevenlabs/eleven-multilingual-v2",
+      "verdict": "DANGEROUS - tag is spoken",
+      "evidence": {
+        "tag_spoken_aloud": true,
+        "transcript_head": "Whispering. The colony ship drifted past the terminator line"
+      }
+    },
+    {
+      "mechanism": "inline audio tag [whispering]",
+      "model": "elevenlabs/eleven-flash-v2.5",
+      "verdict": "DANGEROUS - tag is spoken",
+      "evidence": {
+        "tag_spoken_aloud": true,
+        "transcript_head": "Whispering. The colony ship drifted past the terminator line"
+      }
+    },
+    {
+      "mechanism": "instructions",
+      "model": "google/gemini-3.8-flash-tts",
+      "voice": "Kore",
+      "verdict": "WORKS",
+      "evidence": {
+        "isolated_text": {
+          "plain": {
+            "centroid_hz": 661,
+            "hi": 0.0236
+          },
+          "instructed": {
+            "centroid_hz": 3490,
+            "hi": 0.389
+          }
+        },
+        "script_ab": {
+          "plain": {
+            "seconds": 33.68,
+            "centroid_hz": 818,
+            "hi": 0.023
+          },
+          "instructed": {
+            "seconds": 39.08,
+            "centroid_hz": 1510,
+            "hi": 0.08
+          }
+        }
+      }
+    },
+    {
+      "mechanism": "instructions",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "sarah",
+      "verdict": "IGNORED",
+      "evidence": {
+        "plain_runs": {
+          "centroid_hz": [
+            968,
+            994
+          ]
+        },
+        "instructed": {
+          "centroid_hz": 980
+        }
+      }
+    },
+    {
+      "mechanism": "provider.options.elevenlabs.voice_settings {stability: 0.2, style: 0.9}",
+      "model": "elevenlabs/eleven-v4",
+      "voice": "sarah",
+      "verdict": "NO SEPARABLE EFFECT",
+      "evidence": {
+        "baseline_runs_centroid_hz": [
+          1098,
+          936,
+          1037
+        ],
+        "styled_runs_centroid_hz": [
+          997,
+          1066,
+          960
+        ]
+      }
+    },
+    {
+      "mechanism": "style + styledegree",
+      "model": "microsoft/mai-voice-2.1",
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "verdict": "INCONCLUSIVE",
+      "evidence": {
+        "plain_runs_centroid_hz": [
+          550,
+          638
+        ],
+        "styled_runs_centroid_hz": [
+          601,
+          659
+        ],
+        "note": "difference is smaller than the run-to-run spread"
+      }
+    }
   ],
   "controlled_ab_on_marked_up_script": {
-    "script": "samples/emotion-script.txt - {{curious}} {{serious}} {{amused}} {{whispering}}",
+    "script": "samples/scifi-emotion-en.txt - {{curious}} {{serious}} {{amused}} {{whispering}}",
     "eleven-v4_sarah": {
-      "tagged": {"seconds": 31.04, "whole_centroid": 748, "last_line_centroid": 1263, "last_line_hi": 0.149},
-      "control_plain": {"seconds": 32.08, "whole_centroid": 643, "last_line_centroid": 552, "last_line_hi": 0.02},
-      "tag_spoken_aloud": false},
+      "tagged": {
+        "seconds": 31.04,
+        "whole_centroid": 748,
+        "last_line_centroid": 1263,
+        "last_line_hi": 0.149
+      },
+      "control_plain": {
+        "seconds": 32.08,
+        "whole_centroid": 643,
+        "last_line_centroid": 552,
+        "last_line_hi": 0.02
+      },
+      "tag_spoken_aloud": false
+    },
     "gemini_Kore": {
-      "tagged": {"seconds": 39.08, "whole_centroid": 1510, "last_line_centroid": 904, "last_line_hi": 0.08},
-      "control_plain": {"seconds": 33.68, "whole_centroid": 818, "last_line_centroid": 703, "last_line_hi": 0.023}}
+      "tagged": {
+        "seconds": 39.08,
+        "whole_centroid": 1510,
+        "last_line_centroid": 904,
+        "last_line_hi": 0.08
+      },
+      "control_plain": {
+        "seconds": 33.68,
+        "whole_centroid": 818,
+        "last_line_centroid": 703,
+        "last_line_hi": 0.023
+      }
+    },
+    "control_script": "samples/scifi-emotion-en-plain.txt (identical text, markup stripped)"
   }
 }

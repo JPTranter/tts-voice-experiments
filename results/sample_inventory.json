@@ -2,556 +2,661 @@
   {
     "path": "audio/birthday/happy-birthday-to-bel-4part-harmony.mp3",
     "seconds": 17.61,
-    "kb": 346
+    "kb": 346,
+    "md5": "71b64b468b9e"
   },
   {
     "path": "audio/birthday/reference-synth-4parts.mp3",
     "seconds": 17.61,
-    "kb": 346
+    "kb": 346,
+    "md5": "5e5143819b2a"
   },
   {
     "path": "audio/edge/01-aria.mp3",
     "seconds": 29.35,
-    "kb": 172
+    "kb": 172,
+    "md5": "76d30f7db059"
   },
   {
     "path": "audio/edge/02-jenny.mp3",
     "seconds": 28.73,
-    "kb": 168
+    "kb": 168,
+    "md5": "b1e448edae45"
   },
   {
     "path": "audio/edge/03-sonia.mp3",
     "seconds": 27.41,
-    "kb": 161
+    "kb": 161,
+    "md5": "57228f8eabe4"
   },
   {
     "path": "audio/elevenlabs-en-full/01-sarah.mp3",
     "seconds": 32.64,
-    "kb": 511
+    "kb": 511,
+    "md5": "4220e55998cb"
   },
   {
     "path": "audio/elevenlabs-en-full/02-alice.mp3",
     "seconds": 32.4,
-    "kb": 507
+    "kb": 507,
+    "md5": "c5df0ba60c8d"
   },
   {
     "path": "audio/elevenlabs-en-full/03-matilda.mp3",
     "seconds": 32.48,
-    "kb": 509
+    "kb": 509,
+    "md5": "b3bf49e976dc"
   },
   {
     "path": "audio/emotion/_control_plain_gemini.mp3",
     "seconds": 33.68,
-    "kb": 660
+    "kb": 660,
+    "md5": "3494a9aede6a"
   },
   {
     "path": "audio/emotion/_control_plain_sarah.mp3",
     "seconds": 32.08,
-    "kb": 502
+    "kb": 502,
+    "md5": "ff85e0afb9a1"
   },
   {
     "path": "audio/emotion/en-adam-emotion-fast150.mp3",
     "seconds": 20.22,
-    "kb": 396
+    "kb": 396,
+    "md5": "d8129cce8e67"
   },
   {
     "path": "audio/emotion/en-adam-emotion.mp3",
     "seconds": 30.32,
-    "kb": 475
+    "kb": 475,
+    "md5": "6e8b827c47c4"
   },
   {
     "path": "audio/emotion/en-alice-emotion-fast150.mp3",
     "seconds": 20.91,
-    "kb": 410
+    "kb": 410,
+    "md5": "fd76aa3cf659"
   },
   {
     "path": "audio/emotion/en-alice-emotion.mp3",
     "seconds": 31.36,
-    "kb": 491
+    "kb": 491,
+    "md5": "bc926b08a3bd"
   },
   {
     "path": "audio/emotion/en-bella-emotion-fast150.mp3",
     "seconds": 20.91,
-    "kb": 410
+    "kb": 410,
+    "md5": "8db897f0ebd3"
   },
   {
     "path": "audio/emotion/en-bella-emotion.mp3",
     "seconds": 31.36,
-    "kb": 491
+    "kb": 491,
+    "md5": "9b43992cf6e1"
   },
   {
     "path": "audio/emotion/en-bill-emotion-fast150.mp3",
     "seconds": 21.55,
-    "kb": 422
+    "kb": 422,
+    "md5": "5fc6da99e053"
   },
   {
     "path": "audio/emotion/en-bill-emotion.mp3",
     "seconds": 32.32,
-    "kb": 506
+    "kb": 506,
+    "md5": "54aec193a685"
   },
   {
     "path": "audio/emotion/en-brian-emotion-fast150.mp3",
     "seconds": 19.9,
-    "kb": 390
+    "kb": 390,
+    "md5": "a0ab590b7aac"
   },
   {
     "path": "audio/emotion/en-brian-emotion.mp3",
     "seconds": 29.84,
-    "kb": 467
+    "kb": 467,
+    "md5": "d4044c34f40f"
   },
   {
     "path": "audio/emotion/en-callum-emotion-fast150.mp3",
     "seconds": 21.76,
-    "kb": 427
+    "kb": 427,
+    "md5": "1770a9e014a2"
   },
   {
     "path": "audio/emotion/en-callum-emotion.mp3",
     "seconds": 32.64,
-    "kb": 511
+    "kb": 511,
+    "md5": "8f28776f3728"
   },
   {
     "path": "audio/emotion/en-charlie-emotion-fast150.mp3",
     "seconds": 20.05,
-    "kb": 393
+    "kb": 393,
+    "md5": "1d39bd818dff"
   },
   {
     "path": "audio/emotion/en-charlie-emotion.mp3",
     "seconds": 30.08,
-    "kb": 471
+    "kb": 471,
+    "md5": "ceba13fcc734"
   },
   {
     "path": "audio/emotion/en-chris-emotion-fast150.mp3",
     "seconds": 19.42,
-    "kb": 381
+    "kb": 381,
+    "md5": "02f9317d8d7c"
   },
   {
     "path": "audio/emotion/en-chris-emotion.mp3",
     "seconds": 29.12,
-    "kb": 456
+    "kb": 456,
+    "md5": "60ba06c226b2"
   },
   {
     "path": "audio/emotion/en-daniel-emotion-fast150.mp3",
     "seconds": 21.18,
-    "kb": 415
+    "kb": 415,
+    "md5": "436f448c1833"
   },
   {
     "path": "audio/emotion/en-daniel-emotion.mp3",
     "seconds": 31.76,
-    "kb": 497
+    "kb": 497,
+    "md5": "b76e80ee8b8c"
   },
   {
     "path": "audio/emotion/en-eric-emotion-fast150.mp3",
     "seconds": 20.06,
-    "kb": 393
+    "kb": 393,
+    "md5": "dc6bae3eacb8"
   },
   {
     "path": "audio/emotion/en-eric-emotion.mp3",
     "seconds": 30.08,
-    "kb": 471
+    "kb": 471,
+    "md5": "2f7f3f4068a4"
+  },
+  {
+    "path": "audio/emotion/en-gemini-kore-emotion.mp3",
+    "seconds": 39.08,
+    "kb": 765,
+    "md5": "cda8f400739e"
   },
   {
     "path": "audio/emotion/en-george-emotion-fast150.mp3",
     "seconds": 20.76,
-    "kb": 407
+    "kb": 407,
+    "md5": "a4fdd091743c"
   },
   {
     "path": "audio/emotion/en-george-emotion.mp3",
     "seconds": 31.12,
-    "kb": 487
+    "kb": 487,
+    "md5": "b203b605f5c0"
   },
   {
     "path": "audio/emotion/en-harry-emotion-fast150.mp3",
     "seconds": 19.8,
-    "kb": 388
+    "kb": 388,
+    "md5": "8285efdf2ec4"
   },
   {
     "path": "audio/emotion/en-harry-emotion.mp3",
     "seconds": 29.68,
-    "kb": 465
+    "kb": 465,
+    "md5": "258f489aa60e"
   },
   {
     "path": "audio/emotion/en-jessica-emotion-fast150.mp3",
     "seconds": 20.06,
-    "kb": 393
+    "kb": 393,
+    "md5": "9f340c9e3fcd"
   },
   {
     "path": "audio/emotion/en-jessica-emotion.mp3",
     "seconds": 30.08,
-    "kb": 471
+    "kb": 471,
+    "md5": "dd50e39f6910"
   },
   {
     "path": "audio/emotion/en-laura-emotion-fast150.mp3",
     "seconds": 20.27,
-    "kb": 397
+    "kb": 397,
+    "md5": "18366e424d3c"
   },
   {
     "path": "audio/emotion/en-laura-emotion.mp3",
     "seconds": 30.4,
-    "kb": 476
+    "kb": 476,
+    "md5": "81d29a0ece1a"
   },
   {
     "path": "audio/emotion/en-liam-emotion-fast150.mp3",
     "seconds": 19.25,
-    "kb": 377
+    "kb": 377,
+    "md5": "08f9d47a832c"
   },
   {
     "path": "audio/emotion/en-liam-emotion.mp3",
     "seconds": 28.88,
-    "kb": 452
+    "kb": 452,
+    "md5": "2a68af749390"
   },
   {
     "path": "audio/emotion/en-lily-emotion-fast150.mp3",
     "seconds": 21.66,
-    "kb": 425
+    "kb": 425,
+    "md5": "d969d7cce5ad"
   },
   {
     "path": "audio/emotion/en-lily-emotion.mp3",
     "seconds": 32.48,
-    "kb": 509
+    "kb": 509,
+    "md5": "d496f6a0e3af"
   },
   {
     "path": "audio/emotion/en-matilda-emotion-fast150.mp3",
     "seconds": 21.07,
-    "kb": 413
+    "kb": 413,
+    "md5": "36fd0a53fde7"
   },
   {
     "path": "audio/emotion/en-matilda-emotion.mp3",
     "seconds": 31.6,
-    "kb": 495
+    "kb": 495,
+    "md5": "6fd587372b20"
   },
   {
     "path": "audio/emotion/en-roger-emotion-fast150.mp3",
     "seconds": 20.75,
-    "kb": 407
+    "kb": 407,
+    "md5": "26f6ca920111"
   },
   {
     "path": "audio/emotion/en-roger-emotion.mp3",
     "seconds": 31.12,
-    "kb": 487
+    "kb": 487,
+    "md5": "c8511fb12774"
   },
   {
     "path": "audio/emotion/en-sarah-emotion-fast150.mp3",
     "seconds": 20.7,
-    "kb": 406
+    "kb": 406,
+    "md5": "b684c89c371e"
   },
   {
     "path": "audio/emotion/en-sarah-emotion.mp3",
     "seconds": 31.04,
-    "kb": 486
+    "kb": 486,
+    "md5": "9f1f3f8c5a53"
   },
   {
     "path": "audio/emotion/en-will-emotion-fast150.mp3",
     "seconds": 20.59,
-    "kb": 404
+    "kb": 404,
+    "md5": "d81470348c62"
   },
   {
     "path": "audio/emotion/en-will-emotion.mp3",
     "seconds": 30.88,
-    "kb": 484
+    "kb": 484,
+    "md5": "94ee04f2220c"
   },
   {
     "path": "audio/emotion/ko-annakim-emotion.mp3",
     "seconds": 38.56,
-    "kb": 604
+    "kb": 604,
+    "md5": "5377c437c2cb"
   },
   {
     "path": "audio/emotion/ko-haena-plain.mp3",
     "seconds": 39.29,
-    "kb": 768
+    "kb": 768,
+    "md5": "ee1e0c2990e7"
   },
   {
     "path": "audio/emotion/ko-jini-emotion.mp3",
     "seconds": 36.24,
-    "kb": 567
+    "kb": 567,
+    "md5": "1bd60bdc49b4"
   },
   {
     "path": "audio/emotion/ko-kore-emotion.mp3",
     "seconds": 43.16,
-    "kb": 845
+    "kb": 845,
+    "md5": "71e6d886eb42"
   },
   {
     "path": "audio/emotion/ko-sora-emotion.mp3",
     "seconds": 40.32,
-    "kb": 631
-  },
-  {
-    "path": "audio/emotion/sci-fi-emotion-gemini.mp3",
-    "seconds": 39.08,
-    "kb": 765
-  },
-  {
-    "path": "audio/emotion/sci-fi-emotion-george.mp3",
-    "seconds": 31.28,
-    "kb": 490
-  },
-  {
-    "path": "audio/emotion/sci-fi-emotion-sarah.mp3",
-    "seconds": 31.04,
-    "kb": 486
+    "kb": 631,
+    "md5": "346233dd8312"
   },
   {
     "path": "audio/english/el-alice.mp3",
     "seconds": 18.32,
-    "kb": 287
+    "kb": 287,
+    "md5": "238e23a7f05d"
   },
   {
     "path": "audio/english/el-matilda.mp3",
     "seconds": 18.24,
-    "kb": 286
+    "kb": 286,
+    "md5": "cebcdc58add0"
   },
   {
     "path": "audio/english/el-sarah.mp3",
     "seconds": 17.92,
-    "kb": 281
+    "kb": 281,
+    "md5": "27ab07f09441"
   },
   {
     "path": "audio/english_female/en-f-alice.mp3",
     "seconds": 32.72,
-    "kb": 512
+    "kb": 512,
+    "md5": "d531fe74da91"
   },
   {
     "path": "audio/english_female/en-f-bella.mp3",
     "seconds": 32.88,
-    "kb": 515
+    "kb": 515,
+    "md5": "842f568ea2f2"
   },
   {
     "path": "audio/english_female/en-f-jessica.mp3",
     "seconds": 31.76,
-    "kb": 497
+    "kb": 497,
+    "md5": "b0e98342a7df"
   },
   {
     "path": "audio/english_female/en-f-laura.mp3",
     "seconds": 31.44,
-    "kb": 492
+    "kb": 492,
+    "md5": "96e68415180f"
   },
   {
     "path": "audio/english_female/en-f-lily.mp3",
     "seconds": 33.36,
-    "kb": 522
+    "kb": 522,
+    "md5": "d41fd0f35d42"
   },
   {
     "path": "audio/english_female/en-f-matilda.mp3",
     "seconds": 32.72,
-    "kb": 512
+    "kb": 512,
+    "md5": "69ff95511e58"
   },
   {
     "path": "audio/english_female/en-f-sarah.mp3",
     "seconds": 32.48,
-    "kb": 509
+    "kb": 509,
+    "md5": "4cdb3aaa3805"
   },
   {
     "path": "audio/english_female_fast/en-f-alice-fast150.mp3",
     "seconds": 22.03,
-    "kb": 345
+    "kb": 345,
+    "md5": "9bfc96ddda5e"
   },
   {
     "path": "audio/english_female_fast/en-f-bella-fast150.mp3",
     "seconds": 21.92,
-    "kb": 344
+    "kb": 344,
+    "md5": "06423f557eba"
   },
   {
     "path": "audio/english_female_fast/en-f-jessica-fast150.mp3",
     "seconds": 21.17,
-    "kb": 332
+    "kb": 332,
+    "md5": "3fedab3c6d16"
   },
   {
     "path": "audio/english_female_fast/en-f-laura-fast150.mp3",
     "seconds": 20.96,
-    "kb": 329
+    "kb": 329,
+    "md5": "a87da767ad28"
   },
   {
     "path": "audio/english_female_fast/en-f-lily-fast150.mp3",
     "seconds": 22.41,
-    "kb": 351
+    "kb": 351,
+    "md5": "d69d71e88e46"
   },
   {
     "path": "audio/english_female_fast/en-f-matilda-fast150.mp3",
     "seconds": 21.71,
-    "kb": 340
+    "kb": 340,
+    "md5": "1e982b521b33"
   },
   {
     "path": "audio/english_female_fast/en-f-sarah-fast150.mp3",
     "seconds": 21.44,
-    "kb": 336
+    "kb": 336,
+    "md5": "e6c4e9284bd7"
   },
   {
     "path": "audio/english_male/en-m-adam.mp3",
     "seconds": 32.24,
-    "kb": 505
+    "kb": 505,
+    "md5": "5c1aead1e868"
   },
   {
     "path": "audio/english_male/en-m-bill.mp3",
     "seconds": 35.12,
-    "kb": 550
+    "kb": 550,
+    "md5": "b53978c1c8da"
   },
   {
     "path": "audio/english_male/en-m-brian.mp3",
     "seconds": 30.4,
-    "kb": 476
+    "kb": 476,
+    "md5": "e6ed63435836"
   },
   {
     "path": "audio/english_male/en-m-callum.mp3",
     "seconds": 33.84,
-    "kb": 530
+    "kb": 530,
+    "md5": "f827a5a121ed"
   },
   {
     "path": "audio/english_male/en-m-charlie.mp3",
     "seconds": 31.04,
-    "kb": 486
+    "kb": 486,
+    "md5": "db198843cd18"
   },
   {
     "path": "audio/english_male/en-m-chris.mp3",
     "seconds": 30.48,
-    "kb": 477
+    "kb": 477,
+    "md5": "010b6d3ea5d5"
   },
   {
     "path": "audio/english_male/en-m-daniel.mp3",
     "seconds": 32.96,
-    "kb": 516
+    "kb": 516,
+    "md5": "29402ce90c1a"
   },
   {
     "path": "audio/english_male/en-m-eric.mp3",
     "seconds": 30.32,
-    "kb": 475
+    "kb": 475,
+    "md5": "a377d2ce9dd8"
   },
   {
     "path": "audio/english_male/en-m-george.mp3",
     "seconds": 32.32,
-    "kb": 506
+    "kb": 506,
+    "md5": "5e5dda08cdf3"
   },
   {
     "path": "audio/english_male/en-m-harry.mp3",
     "seconds": 30.96,
-    "kb": 485
+    "kb": 485,
+    "md5": "0e2e31176c4e"
   },
   {
     "path": "audio/english_male/en-m-liam.mp3",
     "seconds": 29.84,
-    "kb": 467
+    "kb": 467,
+    "md5": "8d3403cf3da1"
   },
   {
     "path": "audio/english_male/en-m-roger.mp3",
     "seconds": 32.32,
-    "kb": 506
+    "kb": 506,
+    "md5": "a7a138106564"
   },
   {
     "path": "audio/english_male/en-m-will.mp3",
     "seconds": 31.36,
-    "kb": 491
+    "kb": 491,
+    "md5": "07e5521b8daf"
   },
   {
     "path": "audio/english_male_fast/en-m-adam-fast150.mp3",
     "seconds": 21.39,
-    "kb": 335
+    "kb": 335,
+    "md5": "f565f2edc5ef"
   },
   {
     "path": "audio/english_male_fast/en-m-bill-fast150.mp3",
     "seconds": 22.83,
-    "kb": 358
+    "kb": 358,
+    "md5": "0845f147f92d"
   },
   {
     "path": "audio/english_male_fast/en-m-brian-fast150.mp3",
     "seconds": 20.0,
-    "kb": 314
+    "kb": 314,
+    "md5": "ce27357250df"
   },
   {
     "path": "audio/english_male_fast/en-m-callum-fast150.mp3",
     "seconds": 22.72,
-    "kb": 356
+    "kb": 356,
+    "md5": "138477dbb88e"
   },
   {
     "path": "audio/english_male_fast/en-m-charlie-fast150.mp3",
     "seconds": 20.66,
-    "kb": 324
+    "kb": 324,
+    "md5": "c87013302a5d"
   },
   {
     "path": "audio/english_male_fast/en-m-chris-fast150.mp3",
     "seconds": 19.85,
-    "kb": 311
+    "kb": 311,
+    "md5": "38517996bf57"
   },
   {
     "path": "audio/english_male_fast/en-m-daniel-fast150.mp3",
     "seconds": 21.92,
-    "kb": 344
+    "kb": 344,
+    "md5": "adae0f063c51"
   },
   {
     "path": "audio/english_male_fast/en-m-eric-fast150.mp3",
     "seconds": 20.64,
-    "kb": 324
+    "kb": 324,
+    "md5": "cfd2634fe5d3"
   },
   {
     "path": "audio/english_male_fast/en-m-george-fast150.mp3",
     "seconds": 21.39,
-    "kb": 335
+    "kb": 335,
+    "md5": "a43920bb424a"
   },
   {
     "path": "audio/english_male_fast/en-m-harry-fast150.mp3",
     "seconds": 20.64,
-    "kb": 324
+    "kb": 324,
+    "md5": "8aae75a1aea8"
   },
   {
     "path": "audio/english_male_fast/en-m-liam-fast150.mp3",
     "seconds": 20.59,
-    "kb": 323
+    "kb": 323,
+    "md5": "1b2c2574f3cf"
   },
   {
     "path": "audio/english_male_fast/en-m-roger-fast150.mp3",
     "seconds": 21.39,
-    "kb": 335
+    "kb": 335,
+    "md5": "d2dc16d156e8"
   },
   {
     "path": "audio/english_male_fast/en-m-will-fast150.mp3",
     "seconds": 21.24,
-    "kb": 333
+    "kb": 333,
+    "md5": "4adcf23cebd3"
   },
   {
     "path": "audio/korean/el-annakim.mp3",
     "seconds": 39.76,
-    "kb": 622
+    "kb": 622,
+    "md5": "b0330e39fc23"
   },
   {
     "path": "audio/korean/el-jini.mp3",
     "seconds": 37.92,
-    "kb": 594
+    "kb": 594,
+    "md5": "5c0fc94fd74f"
   },
   {
     "path": "audio/korean/el-sora.mp3",
     "seconds": 42.56,
-    "kb": 666
+    "kb": 666,
+    "md5": "81ddd44f79c2"
   },
   {
     "path": "audio/korean/gemini-kore.mp3",
     "seconds": 40.92,
-    "kb": 641
+    "kb": 641,
+    "md5": "c739740f9479"
   },
   {
     "path": "audio/korean/mai-haena.mp3",
     "seconds": 40.66,
-    "kb": 794
+    "kb": 794,
+    "md5": "d05b217cbafe"
   },
   {
     "path": "audio/korean/mai-harper.mp3",
     "seconds": 50.16,
-    "kb": 980
+    "kb": 980,
+    "md5": "32853dc5e174"
   },
   {
-    "path": "audio/local/_sapi-zira-plain.mp3",
+    "path": "audio/local/control-plain-zira-en.mp3",
     "seconds": 29.49,
-    "kb": 578
+    "kb": 578,
+    "md5": "c40377fdd098"
   },
   {
     "path": "audio/local/piper-amy-en.mp3",
     "seconds": 28.83,
-    "kb": 565
+    "kb": 565,
+    "md5": "c7494a14ecdf"
   },
   {
     "path": "audio/local/piper-kss-ko.mp3",
     "seconds": 36.07,
-    "kb": 706
+    "kb": 706,
+    "md5": "7c6f339cfce9"
   },
   {
     "path": "audio/local/sapi-zira-en.mp3",
     "seconds": 31.96,
-    "kb": 626
+    "kb": 626,
+    "md5": "02209acfa4c0"
+  },
+  {
+    "path": "audio/longtext/long-text-sarah.mp3",
+    "seconds": 252.25,
+    "kb": 1971,
+    "md5": "09c5cb3a5026"
   }
 ]

@@ -17,7 +17,8 @@ audio/emotion_probe/
 audio/_speed_probe/
 audio/renders/
 audio/local/_tmp*
-audio/local/_sapi*
+# local_tts.py provenance manifests: metadata is in results/sample_inventory.json
+audio/local/*.manifest.json
 __pycache__/
 *.pyc
 # scratch wav intermediates

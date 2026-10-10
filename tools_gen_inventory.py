@@ -6,6 +6,7 @@ The README catalog reads durations from this file, and it doubles as the quick a
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import subprocess
 from pathlib import Path
@@ -29,7 +30,9 @@ def main() -> None:
         if SKIP_PARTS & set(p.parts):
             continue
         rows.append({"path": p.relative_to(ROOT).as_posix(), "seconds": duration(p),
-                     "kb": round(p.stat().st_size / 1024)})
+                     "kb": round(p.stat().st_size / 1024),
+                     # md5 so "every take is distinct" is a checkable claim, not a memory
+                     "md5": hashlib.md5(p.read_bytes()).hexdigest()[:12]})
     out = ROOT / "results" / "sample_inventory.json"
     # trailing newline: end-of-file-fixer (pre-commit) rejects files without one, and it would
     # otherwise block every commit that includes this generated file.

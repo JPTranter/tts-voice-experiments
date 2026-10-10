@@ -93,7 +93,7 @@ the audio was produced, what was measured, the security posture, and finally wha
 
 | file | play |
 |---|---|
-| `_sapi-zira-plain.mp3` | [▶ 29.49 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/local/_sapi-zira-plain.mp3 "audio/local/_sapi-zira-plain.mp3") |
+| `control-plain-zira-en.mp3` | [▶ 29.49 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/local/control-plain-zira-en.mp3 "audio/local/control-plain-zira-en.mp3") |
 | `piper-amy-en.mp3` | [▶ 28.83 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/local/piper-amy-en.mp3 "audio/local/piper-amy-en.mp3") |
 | `piper-kss-ko.mp3` | [▶ 36.07 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/local/piper-kss-ko.mp3 "audio/local/piper-kss-ko.mp3") |
 | `sapi-zira-en.mp3` | [▶ 31.96 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/local/sapi-zira-en.mp3 "audio/local/sapi-zira-en.mp3") |
@@ -105,7 +105,13 @@ the audio was produced, what was measured, the security posture, and finally wha
 | `happy-birthday-to-bel-4part-harmony.mp3` | [▶ 17.61 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/birthday/happy-birthday-to-bel-4part-harmony.mp3 "audio/birthday/happy-birthday-to-bel-4part-harmony.mp3") |
 | `reference-synth-4parts.mp3` | [▶ 17.61 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/birthday/reference-synth-4parts.mp3 "audio/birthday/reference-synth-4parts.mp3") |
 
-**Full emotion set** (all files, including the Korean and single-script demos)
+**Long text** — 3,813 characters (`samples/long-text-sample.txt`) rendered as one file, chunked on sentence boundaries with cross-chunk prosody. Stored at 64 kbps mono to stay under the repo's 2 MB binary guard; the STT round-trip still scores 0.995.
+
+| file | play |
+|---|---|
+| `long-text-sarah.mp3` | [▶ 252.25 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/longtext/long-text-sarah.mp3 "audio/longtext/long-text-sarah.mp3") |
+
+**Full emotion set** (all files, including the Korean renders and the English Gemini take)
 
 | file | play |
 |---|---|
@@ -119,6 +125,7 @@ the audio was produced, what was measured, the security posture, and finally wha
 | `en-chris-emotion.mp3` | [▶ 29.12 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-chris-emotion.mp3 "audio/emotion/en-chris-emotion.mp3") |
 | `en-daniel-emotion.mp3` | [▶ 31.76 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-daniel-emotion.mp3 "audio/emotion/en-daniel-emotion.mp3") |
 | `en-eric-emotion.mp3` | [▶ 30.08 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-eric-emotion.mp3 "audio/emotion/en-eric-emotion.mp3") |
+| `en-gemini-kore-emotion.mp3` | [▶ 39.08 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-gemini-kore-emotion.mp3 "audio/emotion/en-gemini-kore-emotion.mp3") |
 | `en-george-emotion.mp3` | [▶ 31.12 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-george-emotion.mp3 "audio/emotion/en-george-emotion.mp3") |
 | `en-harry-emotion.mp3` | [▶ 29.68 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-harry-emotion.mp3 "audio/emotion/en-harry-emotion.mp3") |
 | `en-jessica-emotion.mp3` | [▶ 30.08 s](https://cdn.jsdelivr.net/gh/JPTranter/tts-voice-experiments@master/audio/emotion/en-jessica-emotion.mp3 "audio/emotion/en-jessica-emotion.mp3") |
@@ -145,21 +152,35 @@ the audio was produced, what was measured, the security posture, and finally wha
 ```
 tts.py                  main CLI: list | probe | say | speed | verify   (cloud, any length)
 local_tts.py            offline CLI: engines | voices | say            (Windows SAPI, Piper)
+birthday_harmony.py     the four-part-harmony experiment (documented failure)
 render.py               earlier harness: renders a voice set and STT-verifies it (writes results/*.json)
 discover.py             lists which voices each speech model accepts
-birthday_harmony.py     the four-part-harmony experiment (documented failure)
 fetch_piper_voices.py   downloads Piper models, verifying the published md5
 emotion_batch.sh        re-renders every voice from the emotion-marked scripts
-tools_scrub_paths.py    one-off privacy scrub (absolute home paths → repo-relative)
+
+# generators — run these after adding samples, in this order
+tools_gen_inventory.py  rebuilds results/sample_inventory.json (durations, sizes, md5)
+tools_gen_catalog.py    rebuilds README section 1; refuses a link to a missing file
+tools_gen_players.py    rebuilds docs/players.html + docs/index.html (the Pages listening room)
+
+# maintenance
+tools_find_orphans.py   reports tracked files nothing references (exit 1 if any)
 
 samples/                the scripts that were spoken (plain + emotion-marked, EN + KO)
 audio/                  every rendered sample, grouped as in section 1
+audio/longtext/         3,813-character sample rendered as one stitched file
+docs/                   the Pages listening room and the GitHub audio-embedding findings
 models/piper/           Piper ONNX voices (gitignored; 360 MB; re-fetch with fetch_piper_voices.py)
 results/                machine-readable measurements behind every claim in this file
-.gitleaks.toml          secret-scan rules
+.gitleaks.toml          secret-scan rules       .gitattributes  line-ending/binary policy
 .pre-commit-config.yaml local commit gate
 .github/workflows/ci.yml full-history secret scan + tooling smoke test
 ```
+
+Housekeeping: `python tools_find_orphans.py` exits non-zero when a tracked file is referenced
+nowhere — the cleanup that removed superseded artifacts, duplicate sample scripts and 30 MB of
+regenerable caches (render chunks, probe audio) was driven by it. Its one allowlisted entry is
+`.gitattributes`, which git reads itself.
 
 ### Where each measurement lives
 
@@ -173,7 +194,7 @@ results/                machine-readable measurements behind every claim in this
 | `results/emotion_batch.json` | per-file duration and segment spectral measurements for the emotion batch |
 | `results/birthday_harmony.json` | per-note pitch: intended, measured, cents error |
 | `results/costs.json` | real per-request cost from `/api/v1/generation?id=…` |
-| `results/sample_inventory.json` | every committed sample with duration and size |
+| `results/sample_inventory.json` | every committed sample: duration, size and md5 (so "every take is distinct" is checkable) |
 
 ---
 
@@ -272,7 +293,7 @@ Policy mirrored from the sibling `eClock` repository: **no secrets in git, with 
 | `.gitleaks.toml` | default gitleaks rules over everything except `audio/`, `models/`, `.venv/` (binary/generated content that trips lookalike heuristics). Project source stays in scope, so a real credential there is still caught. |
 | `.pre-commit-config.yaml` | gitleaks (blocks the commit on a match) plus hygiene: trailing whitespace, end-of-file, YAML validity, large files, merge conflicts, private keys. Installed with `pre-commit install`. |
 | `.github/workflows/ci.yml` | full-history gitleaks scan (`fetch-depth: 0`, so an old commit cannot hide a credential) plus a tooling smoke test that needs no credentials |
-| **artifact privacy** | committed manifests and results carry **repo-relative** paths, never `C:\Users\<name>\…`. Enforced in code (`rel()` in `tts.py`, `local_tts.py`, `birthday_harmony.py`) and cleaned once with `tools_scrub_paths.py`. |
+| **artifact privacy** | committed manifests and results carry **repo-relative** paths, never `C:\Users\<name>\…`. Enforced in code (`rel()` in `tts.py`, `local_tts.py`, `birthday_harmony.py`) enforced at write time by `rel()` (the earlier one-off scrub script was removed once it was no longer needed). |
 
 Run the gates yourself:
 
@@ -373,5 +394,14 @@ Cloud commands need `OPENROUTER_API_KEY` (environment, else the Hermes profile `
 ### Texts used
 
 All English and Korean paragraphs are **original demo prose** written for this project — not
-quotations from any novel. The "Happy Birthday" melody is public domain (1893 *Good Morning to All*;
-the 1935 Warner/Chappell claim was invalidated in 2016). The long-text sample is likewise original.
+quotations from any novel. `samples/scifi-emotion-en.txt` carries the `{{emotion}}` markup and
+`samples/scifi-emotion-en-plain.txt` is the identical text without markup (the control for the
+emotion A/B). The "Happy Birthday" melody is public domain (1893 *Good Morning to All*; the 1935
+Warner/Chappell claim was invalidated in 2016). The long-text sample is likewise original.
+
+### Playing the samples
+
+Click any ▶ link in section 1 to play it in the browser. Why the links point at jsDelivr rather
+than at GitHub or a raw URL — and what GitHub strips — is measured and recorded in
+[`docs/github-audio-embedding.md`](docs/github-audio-embedding.md), with one-page
+[listening room](https://jptranter.github.io/tts-voice-experiments/players.html) for all of them.

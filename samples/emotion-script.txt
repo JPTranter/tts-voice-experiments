@@ -1,7 +1,0 @@
-{{curious}} The colony ship Argent drifted past the terminator line, its hull ticking as forty years of micrometeorites gave up their heat.
-
-{{serious}} Inside, Mira watched the planet's dawn crawl across the viewport — a world of rust and ice that no human had ever touched.
-
-{{amused}} "We came expecting a home," she said. "Instead we found a question."
-
-{{whispering}} Behind her, the ship's mind answered in a voice like falling snow: "Then we shall spend our lives learning how to ask it properly."

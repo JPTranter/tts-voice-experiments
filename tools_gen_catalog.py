@@ -159,6 +159,15 @@ def special_table() -> str:
     return "| file | play |\n|---|---|\n" + "\n".join(rows)
 
 
+
+def longtext_table() -> str:
+    rows = []
+    for p in sorted((ROOT / "audio/longtext").glob("*.mp3")):
+        rows.append(f"| `{p.name}` | {play(p.relative_to(ROOT).as_posix())} |")
+    if not rows:
+        return ""
+    return "\n".join(["| file | play |", "|---|---|", *rows])
+
 def build() -> str:
     return "\n".join([
         BEGIN,
@@ -192,7 +201,13 @@ def build() -> str:
         "",
         special_table(),
         "",
-        "**Full emotion set** (all files, including the Korean and single-script demos)",
+        "**Long text** — 3,813 characters (`samples/long-text-sample.txt`) rendered as one file, "
+        "chunked on sentence boundaries with cross-chunk prosody. Stored at 64 kbps mono to stay "
+        "under the repo's 2 MB binary guard; the STT round-trip still scores 0.995.",
+        "",
+        longtext_table(),
+        "",
+        "**Full emotion set** (all files, including the Korean renders and the English Gemini take)",
         "",
         emotion_table(),
         "",

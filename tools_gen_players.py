@@ -30,6 +30,7 @@ GROUPS = [
     ("Emotion — per-sentence delivery", "audio/emotion", "English tags on eleven-v4, Korean, Gemini instructions and the untagged controls."),
     ("Korean — 6 female voices", "audio/korean", "3 ElevenLabs library ids, 2 Azure MAI voices, 1 Gemini voice."),
     ("Local / offline engines", "audio/local", "Windows SAPI and Piper — no API key, $0 per character."),
+    ("Long text", "audio/longtext", "3,813 characters (samples/long-text-sample.txt) rendered as one stitched file — the chunked long-form path."),
     ("Special cases", "audio/birthday", "The four-part harmony experiment (a documented failure) and its synth reference."),
 ]
 
