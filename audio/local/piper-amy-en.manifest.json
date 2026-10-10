@@ -1,0 +1,8 @@
+{
+  "engine": "piper",
+  "voice": "en_US-amy-medium",
+  "text_chars": 505,
+  "output": "audio\\local\\piper-amy-en.mp3",
+  "cost_usd": 0.0,
+  "network": "offline synthesis; STT verification only if --verify"
+}

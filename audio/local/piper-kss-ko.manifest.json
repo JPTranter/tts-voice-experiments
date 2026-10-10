@@ -1,0 +1,8 @@
+{
+  "engine": "piper",
+  "voice": "ko_KR-kss-medium",
+  "text_chars": 320,
+  "output": "audio\\local\\piper-kss-ko.mp3",
+  "cost_usd": 0.0,
+  "network": "offline synthesis; STT verification only if --verify"
+}

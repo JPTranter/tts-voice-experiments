@@ -1,0 +1,8 @@
+{
+  "engine": "sapi",
+  "voice": "Microsoft Zira Desktop",
+  "text_chars": 505,
+  "output": "audio\\local\\sapi-zira-en.mp3",
+  "cost_usd": 0.0,
+  "network": "offline synthesis; STT verification only if --verify"
+}
